@@ -82,8 +82,8 @@ export default {
                         // 登录注册按钮是否显示
                         lsbuttonVisible: true,
 
-                        logintitle: "未登录",
-                        nickname: "这个人很懒什么都没写",
+                        logintitle: getWelcomeText(),
+                        nickname: "未登录",
                         avatarurl: require('../../../assets/images/visitor.png'),
                         // 登录按钮初始化false
                         loginDialogVisible: false,
@@ -144,11 +144,21 @@ export default {
                         console.log("userinfo初始化登录注册按钮不显示 " + this.lsbuttonVisible)
                         // 登录注册按钮不显示
                         this.lsbuttonVisible = false,
-                                // 欢迎语
-                                this.logintitle = getWelcomeText(),
-                                // 用户昵称
-                                this.nickname = userinfo.nickname
+                        // 欢迎语
+                        this.logintitle = getWelcomeText(),
+                        // 用户昵称
+                        this.nickname = userinfo.nickname
+                        //邮箱未验证，弹提醒框
+                        if(userinfo.status === 1){
+                                this.$notify.info({
+                                        title: '验证邮箱',
+                                        message: '一封验证信已发至您的邮箱，点击连接即可完成验证。',
+                                        offset: 60,
+                                        duration: 6400
+                                });
+                        }
                 }
+                
 
         },
 

@@ -200,6 +200,7 @@ export default {
                                 username: data.username,
                                 mailaddres: data.mailaddres,
                                 uuid: data.uuid,
+                                status: data.status,
 
                         }
                         return JSON.stringify(responsedate);
@@ -227,5 +228,5 @@ export default {
 }
 
 </script>
-<style  lang="scss" scoped>
+<style >
 </style>

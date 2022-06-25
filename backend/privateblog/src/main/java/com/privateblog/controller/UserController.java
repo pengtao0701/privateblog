@@ -65,6 +65,7 @@ public class UserController {
 					result.nickname = user.P_NickName;
 					result.mailaddres = user.P_MailAddres;
 					result.username = user.P_UserName;
+					result.status = user.P_Status;
 
 				}
 			} else {
@@ -125,8 +126,10 @@ public class UserController {
 			return CommonResult.fail(ErrorCodeEnum.MAIL_ISEXIST_ERROR);
 		}
 		
+		// 设置UUID
 		signin.uuid = Utils.GetUUID();
-		signin.nickname = "未设置用户昵称";
+		// 设置初始值用户昵称
+		signin.nickname = Utils.GetCreateNickName(signin.uuid);
 		// 登录用户数据库
 		userService.insertUserInfo(signin);
 
@@ -144,6 +147,7 @@ public class UserController {
 				result.nickname = user.P_NickName;
 				result.mailaddres = user.P_MailAddres;
 				result.username = user.P_UserName;
+				result.status = user.P_Status;
 			}
 		}else {
 			return CommonResult.fail(ErrorCodeEnum.SIGNIN_INSERT_ERROR);
@@ -179,6 +183,7 @@ public class UserController {
 
 	}
 
+	// 校验验证码
 	private boolean getCheckCaptcha(String code, HttpSession session) {
 
 		try {

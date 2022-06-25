@@ -24,6 +24,11 @@ public class UserInfoModel {
 	@Setter
 	// 邮箱
 	public String mailaddres;
+	
+	@Getter
+	@Setter
+	// 用户状态
+	public int status;
 
 	@Getter
 	@Setter

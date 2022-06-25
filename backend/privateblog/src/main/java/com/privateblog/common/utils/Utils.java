@@ -13,6 +13,13 @@ import org.springframework.web.util.HtmlUtils;
 
 public class Utils {
 
+	// 新用户昵称
+	public static String GetCreateNickName(String uuid ) {
+		String nicktemp ="用户";
+		return nicktemp + "_" + uuid.substring( 0, 6 );
+	}
+	
+	
 	// 获取UUID
 	public static String GetUUID() {
 		
