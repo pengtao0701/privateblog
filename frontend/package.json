@@ -42,6 +42,7 @@
     "rules": {
       "vue/multi-word-component-names": 0,
       "vue/no-unused-components": "off",
+      "vue/no-v-model-argument": 0,
       "no-unused-vars": "off",
       "no-unused-labels": "off"
     }
