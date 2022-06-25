@@ -1,0 +1,17 @@
+package com.privateblog.common.utils;
+
+import org.springframework.web.util.HtmlUtils;
+
+public class Utils {
+
+	// HTML转Hex存储
+	public String Escapehtml(String html) {
+		return HtmlUtils.htmlEscapeHex(html);
+	}
+
+	// Hex存储转string型HTML
+	public String Unescapehtml(String html) {
+		return HtmlUtils.htmlUnescape(html);
+	}
+
+}

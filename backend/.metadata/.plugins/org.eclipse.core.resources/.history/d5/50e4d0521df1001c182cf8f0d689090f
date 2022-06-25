@@ -1,0 +1,33 @@
+package com.privateblog.model;
+
+import lombok.Getter;
+import lombok.Setter;
+
+public class UserInfoModel {
+
+	@Getter
+	@Setter
+	// 唯一UUID
+	public String P_UUID;
+
+	@Getter
+	@Setter
+	// 用户昵称
+	public String P_NickName;
+
+	@Getter
+	@Setter
+	// 用户名
+	public String P_UserName;
+
+	@Getter
+	@Setter
+	// 邮箱
+	public String P_MailAddres;
+
+	@Getter
+	@Setter
+	// IP地址
+	public String P_IPAdd;
+
+}

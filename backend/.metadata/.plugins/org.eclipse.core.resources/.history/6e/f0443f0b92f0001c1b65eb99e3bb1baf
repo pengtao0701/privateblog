@@ -1,0 +1,10 @@
+package com.privateblog.mapper;
+
+import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.privateblog.entity.UserInfo;
+
+
+@Mapper
+public interface UserMapper extends BaseMapper<UserInfo> {
+
+}

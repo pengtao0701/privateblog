@@ -1,0 +1,39 @@
+package com.privateblog.config;
+
+import javax.servlet.http.HttpServletRequest;
+import org.springframework.web.servlet.HandlerInterceptor;
+import javax.servlet.http.HttpServletResponse;
+
+import org.springframework.http.HttpMethod;
+import org.springframework.stereotype.Component;
+import org.springframework.web.servlet.handler.HandlerInterceptorAdapter;
+
+import com.power.common.model.CommonResult;
+import com.privateblog.common.ErrorCodeEnum;
+import com.privateblog.common.utils.TokenUtil;
+
+@Component
+public class TokenInterceptor implements HandlerInterceptor {
+	// 重写 前置拦截方法
+	@Override
+	public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler)
+			throws Exception {
+		if (HttpMethod.OPTIONS.toString().equals(request.getMethod())) {
+			// OPTIONS请求，放行
+			return true;
+		}
+		// 1、从请求头中获取token
+		String token = request.getHeader("token");
+		System.out.println(token);
+		// 2、判断 token 是否存在
+		if (token == null || "".equals(token)) {
+			CommonResult.fail(ErrorCodeEnum.TOKEN_ERROR);
+			return false;
+		}
+		// 3、解析token
+		if (!TokenUtil.verify(token)) {
+			return false;
+		}
+		return true;
+	}
+}

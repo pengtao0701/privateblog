@@ -1,0 +1,44 @@
+package com.privateblog.model;
+
+import lombok.Getter;
+import lombok.Setter;
+
+public class UserInfoModel {
+
+	@Getter
+	@Setter
+	public int P_ID;
+
+	@Getter
+	@Setter
+	public String P_UUID;
+
+	@Getter
+	@Setter
+	public String P_NickName;
+
+	@Getter
+	@Setter
+	public String P_UserName;
+
+	@Getter
+	@Setter
+	public String P_PassWord;
+
+	@Getter
+	@Setter
+	public String P_MailAddres;
+
+	@Getter
+	@Setter
+	public String P_Status;
+
+	@Getter
+	@Setter
+	public String P_Role;
+
+	@Getter
+	@Setter
+	public String P_IPAdd;
+
+}

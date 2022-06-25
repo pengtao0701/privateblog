@@ -1,0 +1,16 @@
+package com.privateblog.model;
+
+import lombok.Getter;
+import lombok.Setter;
+
+public interface
+
+class BaseModel {
+	@Getter
+	@Setter
+	public String resultcode;
+
+	@Getter
+	@Setter
+	public String resultmsg;
+}

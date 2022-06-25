@@ -1,0 +1,19 @@
+package com.privateblog;
+
+import org.mybatis.spring.annotation.MapperScan;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.transaction.annotation.EnableTransactionManagement;
+
+@SpringBootApplication
+@ComponentScan("com.privateblog.controller")
+@MapperScan("com.privateblog")
+@EnableTransactionManagement
+public class PrivateblogApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(PrivateblogApplication.class, args);
+	}
+
+}

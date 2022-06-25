@@ -1,0 +1,21 @@
+package com.privateblog.config;
+
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
+
+import lombok.Data;
+
+
+@Data
+@Component
+public class ConstantProperties {
+	
+	public static String origin;
+
+
+	@Value("${com.privateblog.origin}")
+	public void setOrigin(String origin) {
+		ConstantProperties.origin = origin;
+	}
+
+}

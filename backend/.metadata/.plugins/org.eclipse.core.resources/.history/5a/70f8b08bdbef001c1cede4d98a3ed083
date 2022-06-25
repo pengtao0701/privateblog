@@ -1,0 +1,16 @@
+package com.privateblog.model;
+
+import lombok.Getter;
+import lombok.Setter;
+
+public class UserInfoModel {
+
+	@Getter
+	@Setter
+	public String username;
+	
+	@Getter
+	@Setter
+	public String nikename;
+
+}

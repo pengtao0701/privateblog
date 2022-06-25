@@ -1,0 +1,30 @@
+package com.privateblog.common;
+
+import com.power.common.interfaces.IMessage;
+
+public enum SuccessCodeEnum implements IMessage {
+	
+	PARAM_EMPTY("200", "OK");
+	
+	
+	private String code;
+	private String message;
+	
+	SuccessCodeEnum(String errCode, String errMsg) {
+		this.code = errCode;
+		this.message = errMsg;
+	}
+
+	@Override
+	public String getCode() {
+		// TODO 自动生成的方法存根
+		return null;
+	}
+
+	@Override
+	public String getMessage() {
+		// TODO 自动生成的方法存根
+		return null;
+	}
+
+}

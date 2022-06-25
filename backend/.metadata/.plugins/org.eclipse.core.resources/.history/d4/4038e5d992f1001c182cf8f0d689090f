@@ -1,0 +1,121 @@
+package com.privateblog.controller;
+
+import java.util.List;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.power.common.model.CommonResult;
+import com.privateblog.common.ErrorCodeEnum;
+import com.privateblog.common.utils.Utils;
+import com.privateblog.common.utils.ValidateCodeUtil;
+import com.privateblog.entity.UserInfoEntity;
+import com.privateblog.model.LoginModel;
+import com.privateblog.model.SigninModel;
+import com.privateblog.model.UserInfoModel;
+import com.privateblog.service.UserService;
+
+@RestController
+@RequestMapping("/api/User")
+public class UserController {
+
+	@Autowired(required = true)
+	private UserService userService;
+	public UserInfoEntity userInfo;
+
+	// 用户登录
+	@PostMapping("/Login")
+	@ResponseBody
+	public UserInfoModel Login(@RequestBody LoginModel model) {
+		UserInfoModel result = new UserInfoModel();
+		if (model.username != "" && model.password != "" && model.username != null && model.password != null) {
+			// 判断是否为邮箱
+			if (Utils.isEmail(model.username)) {
+				model.mailaddres = model.username;
+				model.username = "";
+			}
+
+			// 取得userinfo
+			List<UserInfoEntity> userList = userService.getUserInfo(model);
+			if (userList != null) {
+				for (UserInfoEntity user : userList) {
+					result.uuid = user.P_UUID;
+					result.nickname = user.P_NickName;
+					result.mailaddres = user.P_MailAddres;
+					result.username = user.P_UserName;
+
+				}
+			} else {
+				// CommonResult.ok().setResult(book);
+				CommonResult.fail(ErrorCodeEnum.USER_Not_Found_ERROR);
+			}
+
+			// 创建Token
+
+		} else {
+			CommonResult.fail(ErrorCodeEnum.LOGIN_ERROR);
+		}
+
+		return result;
+	}
+
+	// 用户注册
+	@PostMapping("/signin")
+	@ResponseBody
+	public LoginModel signin(@RequestBody SigninModel signin) {
+
+		if (signin != null) {
+
+		}
+
+		return null;
+	}
+
+	// 获取验证码
+	@GetMapping("/GetVCodeImg")
+	@ResponseBody
+	public void Getvcode(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+
+		try {
+
+			response.setContentType("image/png");
+			response.setHeader("Cache-Control", "no-cache");
+			response.setHeader("Expire", "0");
+			response.setHeader("Pragma", "no-cache");
+			ValidateCodeUtil validateCode = new ValidateCodeUtil();
+			// getRandomCodeImage方法会直接将生成的验证码图片写入response
+			validateCode.getRandomCodeImage(request, response);
+			// System.out.println("session里面存储的验证码为："+session.getAttribute("JCCODE"));
+
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+
+	}
+
+	private boolean getCheckCaptcha(String code, HttpSession session) {
+
+		try {
+			// toLowerCase() 不区分大小写进行验证码校验
+			String sessionCode = String.valueOf(session.getAttribute("JCCODE")).toLowerCase();
+			// System.out.println("session里的验证码："+sessionCode);
+			String receivedCode = code.toLowerCase();
+			// System.out.println("用户的验证码："+receivedCode);
+			return !sessionCode.equals("") && !receivedCode.equals("") && sessionCode.equals(receivedCode);
+
+		} catch (Exception e) {
+
+			return false;
+		}
+
+	}
+}

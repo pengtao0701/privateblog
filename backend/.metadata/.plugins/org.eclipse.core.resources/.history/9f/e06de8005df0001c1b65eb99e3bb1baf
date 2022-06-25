@@ -1,0 +1,36 @@
+package com.privateblog.service.serviceImpl;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.privateblog.entity.UserInfo;
+import com.privateblog.mapper.UserMapper;
+import com.privateblog.model.LoginModel;
+import com.privateblog.service.UserService;
+
+@Service
+@Transactional
+public class UserServiceImpl extends ServiceImpl<UserMapper, UserInfo> implements UserService {
+
+	@Autowired
+	private UserMapper userMapper;
+
+	@Transactional
+	public List<UserInfo> getUserInfo(LoginModel loginModel) {
+		List<UserInfo> result = new ArrayList<UserInfo>();
+		Map<String, Object> map = new HashMap<String, Object>();
+		map.put("P_UserName", loginModel.username);
+		map.put("P_PassWord", loginModel.password);
+		result = userMapper.selectByMap(map);
+		
+		return result;
+	}
+
+}
