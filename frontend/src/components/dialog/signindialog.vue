@@ -33,7 +33,7 @@
                                                 </el-col>
                                                 <!-- 验证码-->
                                                 <el-col class="vcode-col-img" :span="8">
-                                                        <el-image style="width: 70px; height: 40px; bottom:0;"
+                                                        <el-image style="width: 100px; height: 40px; bottom:0;"
                                                                 :src=vcodeimg :contain=true v-on:click="getVcodeimg">
                                                         </el-image>
                                                 </el-col>

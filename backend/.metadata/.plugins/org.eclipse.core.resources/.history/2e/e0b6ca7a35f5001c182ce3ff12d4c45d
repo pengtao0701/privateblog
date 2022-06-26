@@ -1,0 +1,5 @@
+package com.privateblog.entity;
+
+public class SortEntity {
+
+}

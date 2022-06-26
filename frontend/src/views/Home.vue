@@ -2,7 +2,7 @@
  * @Author: pengtao.blog 
  * @Date: 2022-06-17 23:07:43 
  * @Last Modified by: pengtao.blog
- * @Last Modified time: 2022-06-25 04:13:20
+ * @Last Modified time: 2022-06-27 00:44:38
  */
 <template>
   <el-container class="el-container-home">
@@ -95,8 +95,7 @@ export default {
     
     .el-footer.el-footer-style {
       background-color: whitesmoke;
-      padding-top: 20px;
-      padding-bottom: 20px;
+      padding-top: 40px;
     
     }
     </style>

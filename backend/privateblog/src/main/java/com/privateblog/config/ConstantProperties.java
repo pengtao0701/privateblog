@@ -15,6 +15,9 @@ public class ConstantProperties {
 	public static String sessionVcode;
 	
 	public static String tokenPrivateKey;
+	
+	public static String imgUpload;
+	
 
 	@Value("${com.privateblog.origin}")
 	public void setOrigin(String origin) {
@@ -30,5 +33,9 @@ public class ConstantProperties {
 	public void setTokenPrivateKey(String tokenPrivateKey) {
 		ConstantProperties.tokenPrivateKey = tokenPrivateKey;
 	}
-
+	
+	@Value("${com.privateblog.imgUpload}")
+	public void setImgUpload(String imgUpload) {
+		ConstantProperties.imgUpload = imgUpload;
+	}
 }

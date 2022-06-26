@@ -1,0 +1,5 @@
+package com.privateblog.controller;
+
+public class BlogController {
+
+}

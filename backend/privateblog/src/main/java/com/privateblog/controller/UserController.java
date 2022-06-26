@@ -65,6 +65,7 @@ public class UserController {
 					result.nickname = user.P_NickName;
 					result.mailaddres = user.P_MailAddres;
 					result.username = user.P_UserName;
+					result.userprofilephoto = user.P_UserProfilePhoto;
 					result.status = user.P_Status;
 
 				}

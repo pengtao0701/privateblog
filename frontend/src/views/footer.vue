@@ -1,6 +1,6 @@
 <template>
-<el-row>
-    <el-row type="flex" class="row-footer-all" justify="center">
+<el-row class="row-footer-all">
+    <el-row type="flex"  justify="center">
       <el-col :span="24" >
         <el-col :span="5">
           <el-row type="flex" class="row-footer" justify="center">
@@ -49,7 +49,9 @@
           Posted by: Peng Tao
         </div>
         <div class="Ceater">
-          Powered by: Vue & Springboot
+          Powered by: 
+          <a href="https://vuejs.org/">Vue.js</a> &  
+          <a href="https://spring.io/projects/spring-boot">Springboot</a>
         </div>
       </el-col>
     </el-row>
@@ -73,6 +75,7 @@ export default {
 <style>
 .row-footer-all{
   min-width: 1200px;
+  padding-bottom: 40px;
 }
 
 .row-footer{

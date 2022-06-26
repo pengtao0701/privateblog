@@ -25,6 +25,8 @@ public class UserInfoEntity {
 	public String P_PassWord;
 
 	public String P_MailAddres;
+	
+	public String P_UserProfilePhoto;
 
 	public int P_Status;
 

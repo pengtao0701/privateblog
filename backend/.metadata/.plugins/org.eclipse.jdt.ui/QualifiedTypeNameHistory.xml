@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="com.alibaba.fastjson.JSON"/>
-<fullyQualifiedTypeName name="org.springframework.core.MethodParameter"/>
-<fullyQualifiedTypeName name="org.springframework.web.servlet.mvc.method.annotation.ResponseBodyAdvice"/>
-<fullyQualifiedTypeName name="com.privateblog.model.UserInfoModel"/>
-<fullyQualifiedTypeName name="java.util.Map"/>
-<fullyQualifiedTypeName name="java.util.HashMap"/>
-<fullyQualifiedTypeName name="io.jsonwebtoken.Jwts"/>
-<fullyQualifiedTypeName name="io.jsonwebtoken.SignatureAlgorithm"/>
-<fullyQualifiedTypeName name="org.springframework.http.HttpMethod"/>
-<fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
-<fullyQualifiedTypeName name="org.springframework.web.servlet.config.annotation.WebMvcConfigurer"/>
-<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
-<fullyQualifiedTypeName name="org.springframework.web.servlet.config.annotation.InterceptorRegistry"/>
 <fullyQualifiedTypeName name="com.privateblog.common.utils.TokenUtil"/>
 <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RestControllerAdvice"/>
-<fullyQualifiedTypeName name="com.power.common.model.CommonResult"/>
-<fullyQualifiedTypeName name="com.privateblog.common.ErrorCodeEnum"/>
 <fullyQualifiedTypeName name="org.apache.logging.log4j.Logger"/>
 <fullyQualifiedTypeName name="org.slf4j.LoggerFactory"/>
 <fullyQualifiedTypeName name="org.apache.logging.log4j.LogManager"/>
@@ -29,7 +14,6 @@
 <fullyQualifiedTypeName name="org.springframework.web.HttpMediaTypeNotSupportedException"/>
 <fullyQualifiedTypeName name="org.springframework.web.HttpRequestMethodNotSupportedException"/>
 <fullyQualifiedTypeName name="org.springframework.util.CollectionUtils"/>
-<fullyQualifiedTypeName name="com.privateblog.common.SuccessCodeEnum"/>
 <fullyQualifiedTypeName name="com.baomidou.mybatisplus.core.conditions.query.QueryWrapper"/>
 <fullyQualifiedTypeName name="java.lang.Boolean"/>
 <fullyQualifiedTypeName name="javafx.scene.chart.PieChart.Data"/>
@@ -38,7 +22,6 @@
 <fullyQualifiedTypeName name="java.lang.InstantiationError"/>
 <fullyQualifiedTypeName name="java.time.Instant"/>
 <fullyQualifiedTypeName name="com.fasterxml.jackson.datatype.jsr310.ser.ZonedDateTimeWithZoneIdSerializer"/>
-<fullyQualifiedTypeName name="java.time.LocalDateTime"/>
 <fullyQualifiedTypeName name="java.time.ZoneId"/>
 <fullyQualifiedTypeName name="java.time.ZonedDateTime"/>
 <fullyQualifiedTypeName name="java.util.Date"/>
@@ -46,9 +29,6 @@
 <fullyQualifiedTypeName name="java.lang.OutOfMemoryError"/>
 <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Value"/>
 <fullyQualifiedTypeName name="lombok.Data"/>
-<fullyQualifiedTypeName name="java.lang.System"/>
-<fullyQualifiedTypeName name="com.privateblog.config.ConstantProperties"/>
-<fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="lombok.Getter"/>
 <fullyQualifiedTypeName name="lombok.Setter"/>
 <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
@@ -57,7 +37,27 @@
 <fullyQualifiedTypeName name="javax.servlet.http.HttpServletResponse"/>
 <fullyQualifiedTypeName name="org.springframework.http.HttpStatus"/>
 <fullyQualifiedTypeName name="java.util.Arrays"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="org.springframework.web.servlet.config.annotation.CorsRegistry"/>
 <fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
+<fullyQualifiedTypeName name="java.math.BigInteger"/>
+<fullyQualifiedTypeName name="java.time.LocalDateTime"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestParam"/>
+<fullyQualifiedTypeName name="org.springframework.web.multipart.MultipartFile"/>
+<fullyQualifiedTypeName name="com.privateblog.common.ErrorCodeEnum"/>
+<fullyQualifiedTypeName name="com.privateblog.config.ConstantProperties"/>
+<fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="com.privateblog.common.utils.FileUtils"/>
+<fullyQualifiedTypeName name="com.power.common.model.CommonResult"/>
+<fullyQualifiedTypeName name="com.privateblog.common.SuccessCodeEnum"/>
+<fullyQualifiedTypeName name="com.sun.javafx.collections.MappingChange.Map"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="org.springframework.web.servlet.config.annotation.WebMvcConfigurer"/>
+<fullyQualifiedTypeName name="org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
+<fullyQualifiedTypeName name="org.springframework.util.ResourceUtils"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="com.privateblog.model.ImageUploadResult"/>
 </qualifiedTypeNameHistroy>

@@ -1,275 +1,190 @@
-2022-06-25 00:00:14,988 INFO org.springframework.boot.StartupInfoLogger [main] Starting PrivateblogApplication using Java 1.8.0_201 on DESKTOP-FHEO5LI with PID 15064 (D:\PrivateBlog\backend\privateblog\target\classes started by pengt in D:\PrivateBlog\backend\privateblog)
-2022-06-25 00:00:15,002 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
-2022-06-25 00:00:15,563 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 5000 (http)
-2022-06-25 00:00:15,568 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-5000"]
-2022-06-25 00:00:15,569 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
-2022-06-25 00:00:15,570 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.63]
-2022-06-25 00:00:15,642 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
-2022-06-25 00:00:15,642 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 620 ms
-2022-06-25 00:00:15,729 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
-2022-06-25 00:00:15,866 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
-2022-06-25 00:00:16,079 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-5000"]
-2022-06-25 00:00:16,087 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 5000 (http) with context path ''
-2022-06-25 00:00:16,091 INFO org.springframework.boot.StartupInfoLogger [main] Started PrivateblogApplication in 1.327 seconds (JVM running for 1.911)
-2022-06-25 00:00:25,447 INFO org.apache.juli.logging.DirectJDKLog [http-nio-5000-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-06-25 00:00:25,447 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-5000-exec-1] Initializing Servlet 'dispatcherServlet'
-2022-06-25 00:00:25,448 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-5000-exec-1] Completed initialization in 1 ms
-2022-06-25 00:12:54,154 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(16)-127.0.0.1] Application shutdown requested.
-2022-06-25 00:12:54,198 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(16)-127.0.0.1] HikariPool-1 - Shutdown initiated...
-2022-06-25 00:12:54,201 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(16)-127.0.0.1] HikariPool-1 - Shutdown completed.
-2022-06-25 00:13:00,418 INFO org.springframework.boot.StartupInfoLogger [main] Starting PrivateblogApplication using Java 1.8.0_201 on DESKTOP-FHEO5LI with PID 3020 (D:\PrivateBlog\backend\privateblog\target\classes started by pengt in D:\PrivateBlog\backend\privateblog)
-2022-06-25 00:13:00,421 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
-2022-06-25 00:13:00,837 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 5000 (http)
-2022-06-25 00:13:00,841 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-5000"]
-2022-06-25 00:13:00,841 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
-2022-06-25 00:13:00,841 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.63]
-2022-06-25 00:13:00,910 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
-2022-06-25 00:13:00,910 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 470 ms
-2022-06-25 00:13:00,988 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
-2022-06-25 00:13:01,076 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
-2022-06-25 00:13:01,288 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-5000"]
-2022-06-25 00:13:01,297 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 5000 (http) with context path ''
-2022-06-25 00:13:01,301 INFO org.springframework.boot.StartupInfoLogger [main] Started PrivateblogApplication in 1.071 seconds (JVM running for 1.519)
-2022-06-25 00:13:10,061 INFO org.apache.juli.logging.DirectJDKLog [http-nio-5000-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-06-25 00:13:10,062 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-5000-exec-1] Initializing Servlet 'dispatcherServlet'
-2022-06-25 00:13:10,062 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-5000-exec-1] Completed initialization in 0 ms
-2022-06-25 00:13:54,155 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(3)-127.0.0.1] Application shutdown requested.
-2022-06-25 00:13:54,204 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(3)-127.0.0.1] HikariPool-1 - Shutdown initiated...
-2022-06-25 00:13:54,205 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(3)-127.0.0.1] HikariPool-1 - Shutdown completed.
-2022-06-25 00:14:04,786 INFO org.springframework.boot.StartupInfoLogger [main] Starting PrivateblogApplication using Java 1.8.0_201 on DESKTOP-FHEO5LI with PID 14000 (D:\PrivateBlog\backend\privateblog\target\classes started by pengt in D:\PrivateBlog\backend\privateblog)
-2022-06-25 00:14:04,790 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
-2022-06-25 00:14:05,215 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 5000 (http)
-2022-06-25 00:14:05,219 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-5000"]
-2022-06-25 00:14:05,219 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
-2022-06-25 00:14:05,219 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.63]
-2022-06-25 00:14:05,288 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
-2022-06-25 00:14:05,288 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 478 ms
-2022-06-25 00:14:05,372 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
-2022-06-25 00:14:05,448 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
-2022-06-25 00:14:05,668 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-5000"]
-2022-06-25 00:14:05,676 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 5000 (http) with context path ''
-2022-06-25 00:14:05,680 INFO org.springframework.boot.StartupInfoLogger [main] Started PrivateblogApplication in 1.088 seconds (JVM running for 1.764)
-2022-06-25 00:14:16,007 INFO org.apache.juli.logging.DirectJDKLog [http-nio-5000-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-06-25 00:14:16,007 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-5000-exec-2] Initializing Servlet 'dispatcherServlet'
-2022-06-25 00:14:16,007 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-5000-exec-2] Completed initialization in 0 ms
-2022-06-25 00:24:45,660 INFO org.springframework.boot.StartupInfoLogger [main] Starting PrivateblogApplication using Java 1.8.0_201 on DESKTOP-FHEO5LI with PID 7972 (D:\PrivateBlog\backend\privateblog\target\classes started by pengt in D:\PrivateBlog\backend\privateblog)
-2022-06-25 00:24:45,663 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
-2022-06-25 00:24:46,126 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 5000 (http)
-2022-06-25 00:24:46,131 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-5000"]
-2022-06-25 00:24:46,131 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
-2022-06-25 00:24:46,131 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.63]
-2022-06-25 00:24:46,201 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
-2022-06-25 00:24:46,201 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 513 ms
-2022-06-25 00:24:46,289 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
-2022-06-25 00:24:46,366 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
-2022-06-25 00:24:46,576 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-5000"]
-2022-06-25 00:24:46,588 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 5000 (http) with context path ''
-2022-06-25 00:24:46,593 INFO org.springframework.boot.StartupInfoLogger [main] Started PrivateblogApplication in 1.127 seconds (JVM running for 1.649)
-2022-06-25 00:25:00,005 INFO org.apache.juli.logging.DirectJDKLog [http-nio-5000-exec-6] Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-06-25 00:25:00,005 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-5000-exec-6] Initializing Servlet 'dispatcherServlet'
-2022-06-25 00:25:00,006 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-5000-exec-6] Completed initialization in 1 ms
-2022-06-25 00:26:31,271 INFO org.springframework.boot.StartupInfoLogger [main] Starting PrivateblogApplication using Java 1.8.0_201 on DESKTOP-FHEO5LI with PID 13636 (D:\PrivateBlog\backend\privateblog\target\classes started by pengt in D:\PrivateBlog\backend\privateblog)
-2022-06-25 00:26:31,275 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
-2022-06-25 00:26:31,722 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 5000 (http)
-2022-06-25 00:26:31,726 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-5000"]
-2022-06-25 00:26:31,726 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
-2022-06-25 00:26:31,727 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.63]
-2022-06-25 00:26:31,800 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
-2022-06-25 00:26:31,800 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 505 ms
-2022-06-25 00:26:31,886 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
-2022-06-25 00:26:31,963 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
-2022-06-25 00:26:32,183 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-5000"]
-2022-06-25 00:26:32,196 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 5000 (http) with context path ''
-2022-06-25 00:26:32,201 INFO org.springframework.boot.StartupInfoLogger [main] Started PrivateblogApplication in 1.132 seconds (JVM running for 1.646)
-2022-06-25 00:26:42,898 INFO org.apache.juli.logging.DirectJDKLog [http-nio-5000-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-06-25 00:26:42,898 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-5000-exec-1] Initializing Servlet 'dispatcherServlet'
-2022-06-25 00:26:42,899 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-5000-exec-1] Completed initialization in 1 ms
-2022-06-25 00:46:32,565 INFO org.springframework.boot.StartupInfoLogger [main] Starting PrivateblogApplication using Java 1.8.0_201 on DESKTOP-FHEO5LI with PID 4700 (D:\PrivateBlog\backend\privateblog\target\classes started by pengt in D:\PrivateBlog\backend\privateblog)
-2022-06-25 00:46:32,569 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
-2022-06-25 00:46:33,006 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 5000 (http)
-2022-06-25 00:46:33,010 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-5000"]
-2022-06-25 00:46:33,010 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
-2022-06-25 00:46:33,011 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.63]
-2022-06-25 00:46:33,081 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
-2022-06-25 00:46:33,081 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 492 ms
-2022-06-25 00:46:33,168 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
-2022-06-25 00:46:33,245 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
-2022-06-25 00:46:33,469 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-5000"]
-2022-06-25 00:46:33,478 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 5000 (http) with context path ''
-2022-06-25 00:46:33,483 INFO org.springframework.boot.StartupInfoLogger [main] Started PrivateblogApplication in 1.123 seconds (JVM running for 1.653)
-2022-06-25 00:46:42,288 INFO org.apache.juli.logging.DirectJDKLog [http-nio-5000-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-06-25 00:46:42,288 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-5000-exec-1] Initializing Servlet 'dispatcherServlet'
-2022-06-25 00:46:42,289 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-5000-exec-1] Completed initialization in 1 ms
-2022-06-25 01:14:28,342 INFO org.springframework.boot.StartupInfoLogger [main] Starting PrivateblogApplication using Java 1.8.0_201 on DESKTOP-FHEO5LI with PID 20492 (D:\PrivateBlog\backend\privateblog\target\classes started by pengt in D:\PrivateBlog\backend\privateblog)
-2022-06-25 01:14:28,346 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
-2022-06-25 01:14:28,773 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 5000 (http)
-2022-06-25 01:14:28,777 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-5000"]
-2022-06-25 01:14:28,777 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
-2022-06-25 01:14:28,777 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.63]
-2022-06-25 01:14:28,850 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
-2022-06-25 01:14:28,851 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 485 ms
-2022-06-25 01:14:28,936 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
-2022-06-25 01:14:29,013 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
-2022-06-25 01:14:29,230 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-5000"]
-2022-06-25 01:14:29,239 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 5000 (http) with context path ''
-2022-06-25 01:14:29,243 INFO org.springframework.boot.StartupInfoLogger [main] Started PrivateblogApplication in 1.096 seconds (JVM running for 1.619)
-2022-06-25 01:14:39,537 INFO org.apache.juli.logging.DirectJDKLog [http-nio-5000-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-06-25 01:14:39,538 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-5000-exec-1] Initializing Servlet 'dispatcherServlet'
-2022-06-25 01:14:39,539 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-5000-exec-1] Completed initialization in 0 ms
-2022-06-25 01:19:59,264 INFO org.springframework.boot.StartupInfoLogger [main] Starting PrivateblogApplication using Java 1.8.0_201 on DESKTOP-FHEO5LI with PID 14988 (D:\PrivateBlog\backend\privateblog\target\classes started by pengt in D:\PrivateBlog\backend\privateblog)
-2022-06-25 01:19:59,267 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
-2022-06-25 01:19:59,635 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 5000 (http)
-2022-06-25 01:19:59,639 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-5000"]
-2022-06-25 01:19:59,639 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
-2022-06-25 01:19:59,639 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.63]
-2022-06-25 01:19:59,699 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
-2022-06-25 01:19:59,700 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 417 ms
-2022-06-25 01:19:59,767 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
-2022-06-25 01:19:59,837 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
-2022-06-25 01:20:00,020 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-5000"]
-2022-06-25 01:20:00,028 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 5000 (http) with context path ''
-2022-06-25 01:20:00,032 INFO org.springframework.boot.StartupInfoLogger [main] Started PrivateblogApplication in 0.921 seconds (JVM running for 1.33)
-2022-06-25 01:20:09,851 INFO org.apache.juli.logging.DirectJDKLog [http-nio-5000-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-06-25 01:20:09,851 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-5000-exec-1] Initializing Servlet 'dispatcherServlet'
-2022-06-25 01:20:09,852 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-5000-exec-1] Completed initialization in 1 ms
-2022-06-25 01:21:30,441 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(4)-127.0.0.1] Application shutdown requested.
-2022-06-25 01:21:30,487 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(4)-127.0.0.1] HikariPool-1 - Shutdown initiated...
-2022-06-25 01:21:30,489 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(4)-127.0.0.1] HikariPool-1 - Shutdown completed.
-2022-06-25 01:21:39,351 INFO org.springframework.boot.StartupInfoLogger [main] Starting PrivateblogApplication using Java 1.8.0_201 on DESKTOP-FHEO5LI with PID 15296 (D:\PrivateBlog\backend\privateblog\target\classes started by pengt in D:\PrivateBlog\backend\privateblog)
-2022-06-25 01:21:39,355 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
-2022-06-25 01:21:39,839 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 5000 (http)
-2022-06-25 01:21:39,844 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-5000"]
-2022-06-25 01:21:39,844 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
-2022-06-25 01:21:39,845 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.63]
-2022-06-25 01:21:39,922 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
-2022-06-25 01:21:39,922 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 546 ms
-2022-06-25 01:21:40,017 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
-2022-06-25 01:21:40,103 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
-2022-06-25 01:21:40,354 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-5000"]
-2022-06-25 01:21:40,364 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 5000 (http) with context path ''
-2022-06-25 01:21:40,369 INFO org.springframework.boot.StartupInfoLogger [main] Started PrivateblogApplication in 1.23 seconds (JVM running for 1.774)
-2022-06-25 01:21:50,664 INFO org.apache.juli.logging.DirectJDKLog [http-nio-5000-exec-3] Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-06-25 01:21:50,664 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-5000-exec-3] Initializing Servlet 'dispatcherServlet'
-2022-06-25 01:21:50,665 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-5000-exec-3] Completed initialization in 1 ms
-2022-06-25 01:43:15,326 INFO org.springframework.boot.StartupInfoLogger [main] Starting PrivateblogApplication using Java 1.8.0_201 on DESKTOP-FHEO5LI with PID 10168 (D:\PrivateBlog\backend\privateblog\target\classes started by pengt in D:\PrivateBlog\backend\privateblog)
-2022-06-25 01:43:15,330 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
-2022-06-25 01:43:15,690 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 5000 (http)
-2022-06-25 01:43:15,694 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-5000"]
-2022-06-25 01:43:15,694 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
-2022-06-25 01:43:15,694 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.63]
-2022-06-25 01:43:15,758 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
-2022-06-25 01:43:15,758 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 412 ms
-2022-06-25 01:43:15,827 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
-2022-06-25 01:43:15,901 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
-2022-06-25 01:43:16,086 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-5000"]
-2022-06-25 01:43:16,093 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 5000 (http) with context path ''
-2022-06-25 01:43:16,097 INFO org.springframework.boot.StartupInfoLogger [main] Started PrivateblogApplication in 0.929 seconds (JVM running for 1.34)
-2022-06-25 01:43:22,575 INFO org.apache.juli.logging.DirectJDKLog [http-nio-5000-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-06-25 01:43:22,575 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-5000-exec-1] Initializing Servlet 'dispatcherServlet'
-2022-06-25 01:43:22,576 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-5000-exec-1] Completed initialization in 1 ms
-2022-06-25 01:45:51,236 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(5)-127.0.0.1] Application shutdown requested.
-2022-06-25 01:45:51,281 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(5)-127.0.0.1] HikariPool-1 - Shutdown initiated...
-2022-06-25 01:45:51,283 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(5)-127.0.0.1] HikariPool-1 - Shutdown completed.
-2022-06-25 01:46:51,952 INFO org.springframework.boot.StartupInfoLogger [main] Starting PrivateblogApplication using Java 1.8.0_201 on DESKTOP-FHEO5LI with PID 17852 (D:\PrivateBlog\backend\privateblog\target\classes started by pengt in D:\PrivateBlog\backend\privateblog)
-2022-06-25 01:46:51,956 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
-2022-06-25 01:48:02,774 INFO org.springframework.boot.StartupInfoLogger [main] Starting PrivateblogApplication using Java 1.8.0_201 on DESKTOP-FHEO5LI with PID 19892 (D:\PrivateBlog\backend\privateblog\target\classes started by pengt in D:\PrivateBlog\backend\privateblog)
-2022-06-25 01:48:02,797 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
-2022-06-25 01:51:59,314 INFO org.springframework.boot.StartupInfoLogger [main] Starting PrivateblogApplication using Java 1.8.0_201 on DESKTOP-FHEO5LI with PID 20356 (D:\PrivateBlog\backend\privateblog\target\classes started by pengt in D:\PrivateBlog\backend\privateblog)
-2022-06-25 01:51:59,318 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
-2022-06-25 01:51:59,755 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 5000 (http)
-2022-06-25 01:51:59,759 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-5000"]
-2022-06-25 01:51:59,759 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
-2022-06-25 01:51:59,760 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.63]
-2022-06-25 01:51:59,828 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
-2022-06-25 01:51:59,828 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 489 ms
-2022-06-25 01:51:59,911 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
-2022-06-25 01:51:59,988 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
-2022-06-25 01:52:00,205 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-5000"]
-2022-06-25 01:52:00,213 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 5000 (http) with context path ''
-2022-06-25 01:52:00,217 INFO org.springframework.boot.StartupInfoLogger [main] Started PrivateblogApplication in 1.093 seconds (JVM running for 1.62)
-2022-06-25 01:52:05,688 INFO org.apache.juli.logging.DirectJDKLog [http-nio-5000-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-06-25 01:52:05,689 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-5000-exec-1] Initializing Servlet 'dispatcherServlet'
-2022-06-25 01:52:05,689 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-5000-exec-1] Completed initialization in 0 ms
-2022-06-25 01:54:46,345 INFO org.springframework.boot.StartupInfoLogger [main] Starting PrivateblogApplication using Java 1.8.0_201 on DESKTOP-FHEO5LI with PID 15200 (D:\PrivateBlog\backend\privateblog\target\classes started by pengt in D:\PrivateBlog\backend\privateblog)
-2022-06-25 01:54:46,349 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
-2022-06-25 01:54:46,837 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 5000 (http)
-2022-06-25 01:54:46,841 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-5000"]
-2022-06-25 01:54:46,841 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
-2022-06-25 01:54:46,842 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.63]
-2022-06-25 01:54:46,919 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
-2022-06-25 01:54:46,919 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 549 ms
-2022-06-25 01:54:47,021 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
-2022-06-25 01:54:47,075 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
-2022-06-25 01:54:47,386 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-5000"]
-2022-06-25 01:54:47,397 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 5000 (http) with context path ''
-2022-06-25 01:54:47,402 INFO org.springframework.boot.StartupInfoLogger [main] Started PrivateblogApplication in 1.258 seconds (JVM running for 1.82)
-2022-06-25 01:54:51,098 INFO org.apache.juli.logging.DirectJDKLog [http-nio-5000-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-06-25 01:54:51,098 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-5000-exec-1] Initializing Servlet 'dispatcherServlet'
-2022-06-25 01:54:51,099 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-5000-exec-1] Completed initialization in 1 ms
-2022-06-25 02:05:34,263 INFO org.springframework.boot.StartupInfoLogger [main] Starting PrivateblogApplication using Java 1.8.0_201 on DESKTOP-FHEO5LI with PID 14280 (D:\PrivateBlog\backend\privateblog\target\classes started by pengt in D:\PrivateBlog\backend\privateblog)
-2022-06-25 02:05:34,267 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
-2022-06-25 02:05:34,705 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 5000 (http)
-2022-06-25 02:05:34,709 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-5000"]
-2022-06-25 02:05:34,709 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
-2022-06-25 02:05:34,710 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.63]
-2022-06-25 02:05:34,780 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
-2022-06-25 02:05:34,781 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 490 ms
-2022-06-25 02:05:34,871 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
-2022-06-25 02:05:34,948 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
-2022-06-25 02:05:35,169 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-5000"]
-2022-06-25 02:05:35,177 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 5000 (http) with context path ''
-2022-06-25 02:05:35,181 INFO org.springframework.boot.StartupInfoLogger [main] Started PrivateblogApplication in 1.122 seconds (JVM running for 1.657)
-2022-06-25 02:05:46,419 INFO org.apache.juli.logging.DirectJDKLog [http-nio-5000-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-06-25 02:05:46,419 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-5000-exec-1] Initializing Servlet 'dispatcherServlet'
-2022-06-25 02:05:46,420 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-5000-exec-1] Completed initialization in 1 ms
-2022-06-25 02:06:52,222 INFO org.springframework.boot.StartupInfoLogger [main] Starting PrivateblogApplication using Java 1.8.0_201 on DESKTOP-FHEO5LI with PID 12512 (D:\PrivateBlog\backend\privateblog\target\classes started by pengt in D:\PrivateBlog\backend\privateblog)
-2022-06-25 02:06:52,226 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
-2022-06-25 02:06:52,716 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 5000 (http)
-2022-06-25 02:06:52,720 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-5000"]
-2022-06-25 02:06:52,720 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
-2022-06-25 02:06:52,720 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.63]
-2022-06-25 02:06:52,796 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
-2022-06-25 02:06:52,796 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 547 ms
-2022-06-25 02:06:52,895 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
-2022-06-25 02:06:52,979 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
-2022-06-25 02:06:53,238 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-5000"]
-2022-06-25 02:06:53,247 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 5000 (http) with context path ''
-2022-06-25 02:06:53,253 INFO org.springframework.boot.StartupInfoLogger [main] Started PrivateblogApplication in 1.236 seconds (JVM running for 1.8)
-2022-06-25 02:06:56,638 INFO org.apache.juli.logging.DirectJDKLog [http-nio-5000-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-06-25 02:06:56,639 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-5000-exec-2] Initializing Servlet 'dispatcherServlet'
-2022-06-25 02:06:56,640 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-5000-exec-2] Completed initialization in 1 ms
-2022-06-25 02:07:39,485 INFO org.springframework.boot.StartupInfoLogger [main] Starting PrivateblogApplication using Java 1.8.0_201 on DESKTOP-FHEO5LI with PID 12268 (D:\PrivateBlog\backend\privateblog\target\classes started by pengt in D:\PrivateBlog\backend\privateblog)
-2022-06-25 02:07:39,489 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
-2022-06-25 02:07:39,906 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 5000 (http)
-2022-06-25 02:07:39,910 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-5000"]
-2022-06-25 02:07:39,910 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
-2022-06-25 02:07:39,910 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.63]
-2022-06-25 02:07:39,983 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
-2022-06-25 02:07:39,983 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 476 ms
-2022-06-25 02:07:40,062 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
-2022-06-25 02:07:40,153 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
-2022-06-25 02:07:40,365 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-5000"]
-2022-06-25 02:07:40,373 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 5000 (http) with context path ''
-2022-06-25 02:07:40,378 INFO org.springframework.boot.StartupInfoLogger [main] Started PrivateblogApplication in 1.064 seconds (JVM running for 1.496)
-2022-06-25 02:07:43,089 INFO org.apache.juli.logging.DirectJDKLog [http-nio-5000-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-06-25 02:07:43,090 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-5000-exec-1] Initializing Servlet 'dispatcherServlet'
-2022-06-25 02:07:43,091 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-5000-exec-1] Completed initialization in 1 ms
-2022-06-25 02:07:56,869 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(3)-127.0.0.1] Application shutdown requested.
-2022-06-25 02:07:56,942 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(3)-127.0.0.1] HikariPool-1 - Shutdown initiated...
-2022-06-25 02:07:56,944 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(3)-127.0.0.1] HikariPool-1 - Shutdown completed.
-2022-06-25 02:08:09,826 INFO org.springframework.boot.StartupInfoLogger [main] Starting PrivateblogApplication using Java 1.8.0_201 on DESKTOP-FHEO5LI with PID 12348 (D:\PrivateBlog\backend\privateblog\target\classes started by pengt in D:\PrivateBlog\backend\privateblog)
-2022-06-25 02:08:09,830 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
-2022-06-25 02:08:10,315 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 5000 (http)
-2022-06-25 02:08:10,319 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-5000"]
-2022-06-25 02:08:10,320 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
-2022-06-25 02:08:10,320 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.63]
-2022-06-25 02:08:10,396 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
-2022-06-25 02:08:10,396 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 543 ms
-2022-06-25 02:08:10,493 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
-2022-06-25 02:08:10,581 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
-2022-06-25 02:08:10,833 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-5000"]
-2022-06-25 02:08:10,845 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 5000 (http) with context path ''
-2022-06-25 02:08:10,851 INFO org.springframework.boot.StartupInfoLogger [main] Started PrivateblogApplication in 1.243 seconds (JVM running for 1.8)
-2022-06-25 02:08:13,809 INFO org.apache.juli.logging.DirectJDKLog [http-nio-5000-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-06-25 02:08:13,809 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-5000-exec-1] Initializing Servlet 'dispatcherServlet'
-2022-06-25 02:08:13,810 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-5000-exec-1] Completed initialization in 1 ms
+2022-06-27 01:22:20,571 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(379)-127.0.0.1] Application shutdown requested.
+2022-06-27 01:22:20,618 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(379)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2022-06-27 01:22:20,622 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(379)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2022-06-27 03:02:37,874 INFO org.springframework.boot.StartupInfoLogger [main] Starting PrivateblogApplication using Java 1.8.0_201 on DESKTOP-FHEO5LI with PID 1804 (D:\GitHub\privateblog\backend\privateblog\target\classes started by pengt in D:\GitHub\privateblog\backend\privateblog)
+2022-06-27 03:02:37,878 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-06-27 03:02:38,257 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 5000 (http)
+2022-06-27 03:02:38,261 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-5000"]
+2022-06-27 03:02:38,261 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-06-27 03:02:38,262 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-27 03:02:38,328 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-06-27 03:02:38,328 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 432 ms
+2022-06-27 03:02:38,396 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2022-06-27 03:02:38,468 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-06-27 03:02:38,654 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-5000"]
+2022-06-27 03:02:38,661 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 5000 (http) with context path ''
+2022-06-27 03:02:38,665 INFO org.springframework.boot.StartupInfoLogger [main] Started PrivateblogApplication in 0.963 seconds (JVM running for 1.386)
+2022-06-27 03:02:54,924 INFO org.apache.juli.logging.DirectJDKLog [http-nio-5000-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-27 03:02:54,924 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-5000-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-06-27 03:02:54,925 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-5000-exec-1] Completed initialization in 1 ms
+2022-06-27 03:07:18,649 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(7)-127.0.0.1] Application shutdown requested.
+2022-06-27 03:07:18,692 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(7)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2022-06-27 03:07:18,694 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(7)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2022-06-27 03:07:24,800 INFO org.springframework.boot.StartupInfoLogger [main] Starting PrivateblogApplication using Java 1.8.0_201 on DESKTOP-FHEO5LI with PID 18088 (D:\GitHub\privateblog\backend\privateblog\target\classes started by pengt in D:\GitHub\privateblog\backend\privateblog)
+2022-06-27 03:07:24,804 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-06-27 03:07:25,267 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 5000 (http)
+2022-06-27 03:07:25,271 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-5000"]
+2022-06-27 03:07:25,272 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-06-27 03:07:25,272 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-27 03:07:25,343 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-06-27 03:07:25,344 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 519 ms
+2022-06-27 03:07:25,431 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2022-06-27 03:07:25,512 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-06-27 03:07:25,746 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-5000"]
+2022-06-27 03:07:25,762 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 5000 (http) with context path ''
+2022-06-27 03:07:25,767 INFO org.springframework.boot.StartupInfoLogger [main] Started PrivateblogApplication in 1.161 seconds (JVM running for 1.868)
+2022-06-27 03:07:38,214 INFO org.apache.juli.logging.DirectJDKLog [http-nio-5000-exec-4] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-27 03:07:38,214 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-5000-exec-4] Initializing Servlet 'dispatcherServlet'
+2022-06-27 03:07:38,214 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-5000-exec-4] Completed initialization in 0 ms
+2022-06-27 03:16:38,526 INFO org.springframework.boot.StartupInfoLogger [main] Starting PrivateblogApplication using Java 1.8.0_201 on DESKTOP-FHEO5LI with PID 2736 (D:\GitHub\privateblog\backend\privateblog\target\classes started by pengt in D:\GitHub\privateblog\backend\privateblog)
+2022-06-27 03:16:38,530 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-06-27 03:16:38,964 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 5000 (http)
+2022-06-27 03:16:38,968 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-5000"]
+2022-06-27 03:16:38,969 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-06-27 03:16:38,969 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-27 03:16:39,039 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-06-27 03:16:39,039 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 488 ms
+2022-06-27 03:16:39,132 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2022-06-27 03:16:39,211 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-06-27 03:16:39,432 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-5000"]
+2022-06-27 03:16:39,443 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 5000 (http) with context path ''
+2022-06-27 03:16:39,451 INFO org.springframework.boot.StartupInfoLogger [main] Started PrivateblogApplication in 1.121 seconds (JVM running for 1.639)
+2022-06-27 03:16:52,702 INFO org.apache.juli.logging.DirectJDKLog [http-nio-5000-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-27 03:16:52,702 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-5000-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-06-27 03:16:52,703 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-5000-exec-1] Completed initialization in 1 ms
+2022-06-27 03:29:15,019 INFO com.privateblog.controller.BlogController [http-nio-5000-exec-7] 上传图片名 :20200324172110_50739.jpg
+2022-06-27 03:30:32,765 INFO com.privateblog.controller.BlogController [http-nio-5000-exec-3] 上传图片名 :20200324172110_50739.jpg
+2022-06-27 03:41:15,167 INFO org.springframework.boot.StartupInfoLogger [main] Starting PrivateblogApplication using Java 1.8.0_201 on DESKTOP-FHEO5LI with PID 14732 (D:\GitHub\privateblog\backend\privateblog\target\classes started by pengt in D:\GitHub\privateblog\backend\privateblog)
+2022-06-27 03:41:15,172 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-06-27 03:41:15,649 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 5000 (http)
+2022-06-27 03:41:15,654 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-5000"]
+2022-06-27 03:41:15,654 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-06-27 03:41:15,654 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-27 03:41:15,726 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-06-27 03:41:15,726 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 531 ms
+2022-06-27 03:41:15,816 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2022-06-27 03:41:15,924 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-06-27 03:41:16,175 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-5000"]
+2022-06-27 03:41:16,184 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 5000 (http) with context path ''
+2022-06-27 03:41:16,189 INFO org.springframework.boot.StartupInfoLogger [main] Started PrivateblogApplication in 1.225 seconds (JVM running for 1.787)
+2022-06-27 03:41:33,267 INFO org.apache.juli.logging.DirectJDKLog [http-nio-5000-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-27 03:41:33,267 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-5000-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-06-27 03:41:33,267 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-5000-exec-1] Completed initialization in 0 ms
+2022-06-27 03:41:36,317 INFO com.privateblog.controller.BlogController [http-nio-5000-exec-1] 上传图片名 :20200324172110_50739.jpg
+2022-06-27 04:03:37,740 INFO org.springframework.test.context.support.AbstractTestContextBootstrapper [main] Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.privateblog.mybatisplustest], using SpringBootContextLoader
+2022-06-27 04:03:37,744 INFO org.springframework.test.context.support.AbstractContextLoader [main] Could not detect default resource locations for test class [com.privateblog.mybatisplustest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2022-06-27 04:03:37,744 INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.privateblog.mybatisplustest]: mybatisplustest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2022-06-27 04:03:37,821 INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.privateblog.PrivateblogApplication for test class com.privateblog.mybatisplustest
+2022-06-27 04:03:37,894 INFO org.springframework.test.context.support.AbstractTestContextBootstrapper [main] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2022-06-27 04:03:37,907 INFO org.springframework.test.context.support.AbstractTestContextBootstrapper [main] Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@238869e8, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@7aadd290, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@1b3ee7f3, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@7c38d816, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@1c1f3950, org.springframework.test.context.support.DirtiesContextTestExecutionListener@8b24111, org.springframework.test.context.transaction.TransactionalTestExecutionListener@645f3e8b, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@5e1db27e, org.springframework.test.context.event.EventPublishingTestExecutionListener@3badd554, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@218da1f9, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@3c3b7825, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@f06a39e, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@5a54d05f, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@161a3085, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@71878833]
+2022-06-27 04:03:38,104 INFO org.springframework.boot.StartupInfoLogger [main] Starting mybatisplustest using Java 1.8.0_201 on DESKTOP-FHEO5LI with PID 1868 (started by pengt in D:\GitHub\privateblog\backend\privateblog)
+2022-06-27 04:03:38,106 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-06-27 04:03:38,829 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2022-06-27 04:03:38,954 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-06-27 04:03:39,656 INFO org.springframework.boot.StartupInfoLogger [main] Started mybatisplustest in 1.719 seconds (JVM running for 3.197)
+2022-06-27 04:03:40,117 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2022-06-27 04:03:40,120 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2022-06-27 04:15:56,075 INFO org.springframework.test.context.support.AbstractTestContextBootstrapper [main] Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.privateblog.PrivateblogApplicationTests], using SpringBootContextLoader
+2022-06-27 04:15:56,078 INFO org.springframework.test.context.support.AbstractContextLoader [main] Could not detect default resource locations for test class [com.privateblog.PrivateblogApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2022-06-27 04:15:56,078 INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.privateblog.PrivateblogApplicationTests]: PrivateblogApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2022-06-27 04:15:56,128 INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.privateblog.PrivateblogApplication for test class com.privateblog.PrivateblogApplicationTests
+2022-06-27 04:15:56,172 INFO org.springframework.test.context.support.AbstractTestContextBootstrapper [main] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2022-06-27 04:15:56,181 INFO org.springframework.test.context.support.AbstractTestContextBootstrapper [main] Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@62ea3440, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@27953a83, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@556d0826, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@66ce957f, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@55b5f5d2, org.springframework.test.context.support.DirtiesContextTestExecutionListener@5bfa8cc5, org.springframework.test.context.transaction.TransactionalTestExecutionListener@666b83a4, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@749c877b, org.springframework.test.context.event.EventPublishingTestExecutionListener@efde75f, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@16ecee1, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@3b220bcb, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@2b95e48b, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4a3329b9, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@3dddefd8, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@160ac7fb]
+2022-06-27 04:15:56,330 INFO org.springframework.boot.StartupInfoLogger [main] Starting PrivateblogApplicationTests using Java 1.8.0_201 on DESKTOP-FHEO5LI with PID 7000 (started by pengt in D:\GitHub\privateblog\backend\privateblog)
+2022-06-27 04:15:56,332 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-06-27 04:15:56,892 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2022-06-27 04:15:56,975 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-06-27 04:15:57,556 INFO org.springframework.boot.StartupInfoLogger [main] Started PrivateblogApplicationTests in 1.354 seconds (JVM running for 2.079)
+2022-06-27 04:15:57,700 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2022-06-27 04:15:57,702 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2022-06-27 04:24:06,536 INFO org.springframework.boot.StartupInfoLogger [main] Starting PrivateblogApplication using Java 1.8.0_201 on DESKTOP-FHEO5LI with PID 13688 (D:\GitHub\privateblog\backend\privateblog\target\classes started by pengt in D:\GitHub\privateblog\backend\privateblog)
+2022-06-27 04:24:06,541 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-06-27 04:24:06,994 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 5000 (http)
+2022-06-27 04:24:06,998 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-5000"]
+2022-06-27 04:24:06,998 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-06-27 04:24:06,998 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-27 04:24:07,068 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-06-27 04:24:07,068 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 506 ms
+2022-06-27 04:24:07,160 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2022-06-27 04:24:07,241 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-06-27 04:24:07,472 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-5000"]
+2022-06-27 04:24:07,481 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 5000 (http) with context path ''
+2022-06-27 04:24:07,485 INFO org.springframework.boot.StartupInfoLogger [main] Started PrivateblogApplication in 1.147 seconds (JVM running for 1.694)
+2022-06-27 04:24:36,978 INFO org.apache.juli.logging.DirectJDKLog [http-nio-5000-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-27 04:24:36,978 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-5000-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-06-27 04:24:36,979 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-5000-exec-1] Completed initialization in 1 ms
+2022-06-27 04:26:53,587 INFO org.springframework.boot.StartupInfoLogger [main] Starting PrivateblogApplication using Java 1.8.0_201 on DESKTOP-FHEO5LI with PID 20720 (D:\GitHub\privateblog\backend\privateblog\target\classes started by pengt in D:\GitHub\privateblog\backend\privateblog)
+2022-06-27 04:26:53,590 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-06-27 04:26:54,055 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 5000 (http)
+2022-06-27 04:26:54,059 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-5000"]
+2022-06-27 04:26:54,060 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-06-27 04:26:54,060 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-27 04:26:54,130 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-06-27 04:26:54,130 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 518 ms
+2022-06-27 04:26:54,218 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2022-06-27 04:26:54,295 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-06-27 04:26:54,529 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-5000"]
+2022-06-27 04:26:54,538 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 5000 (http) with context path ''
+2022-06-27 04:26:54,543 INFO org.springframework.boot.StartupInfoLogger [main] Started PrivateblogApplication in 1.146 seconds (JVM running for 1.683)
+2022-06-27 04:27:18,018 INFO org.apache.juli.logging.DirectJDKLog [http-nio-5000-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-27 04:27:18,018 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-5000-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-06-27 04:27:18,019 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-5000-exec-1] Completed initialization in 1 ms
+2022-06-27 04:27:21,771 INFO com.privateblog.controller.BlogController [http-nio-5000-exec-1] 上传图片名 :20200324172110_50739.jpg
+2022-06-27 04:29:58,700 INFO org.springframework.boot.StartupInfoLogger [main] Starting PrivateblogApplication using Java 1.8.0_201 on DESKTOP-FHEO5LI with PID 2312 (D:\GitHub\privateblog\backend\privateblog\target\classes started by pengt in D:\GitHub\privateblog\backend\privateblog)
+2022-06-27 04:29:58,703 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-06-27 04:29:59,075 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 5000 (http)
+2022-06-27 04:29:59,079 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-5000"]
+2022-06-27 04:29:59,079 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-06-27 04:29:59,079 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-27 04:29:59,142 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-06-27 04:29:59,142 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 421 ms
+2022-06-27 04:29:59,209 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2022-06-27 04:29:59,290 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-06-27 04:29:59,482 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-5000"]
+2022-06-27 04:29:59,490 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 5000 (http) with context path ''
+2022-06-27 04:29:59,494 INFO org.springframework.boot.StartupInfoLogger [main] Started PrivateblogApplication in 0.953 seconds (JVM running for 1.369)
+2022-06-27 04:30:26,158 INFO org.apache.juli.logging.DirectJDKLog [http-nio-5000-exec-4] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-27 04:30:26,158 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-5000-exec-4] Initializing Servlet 'dispatcherServlet'
+2022-06-27 04:30:26,158 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-5000-exec-4] Completed initialization in 0 ms
+2022-06-27 04:30:26,185 INFO com.privateblog.controller.BlogController [http-nio-5000-exec-4] 上传图片名 :20200324172110_50739.jpg
+2022-06-27 04:39:51,768 INFO com.privateblog.controller.BlogController [http-nio-5000-exec-5] 上传图片名 :20200324172110_50739.jpg
+2022-06-27 04:42:12,231 INFO com.privateblog.controller.BlogController [http-nio-5000-exec-1] 上传图片名 :20200324172110_50739.jpg
+2022-06-27 04:43:44,299 INFO com.privateblog.controller.BlogController [http-nio-5000-exec-6] 上传图片名 :20200324172110_50739.jpg
+2022-06-27 04:44:13,502 INFO com.privateblog.controller.BlogController [http-nio-5000-exec-7] 上传图片名 :20200324172110_50739.jpg
+2022-06-27 04:45:45,766 INFO com.privateblog.controller.BlogController [http-nio-5000-exec-9] 上传图片名 :20200324172110_50739.jpg
+2022-06-27 04:48:39,663 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(22)-127.0.0.1] Application shutdown requested.
+2022-06-27 04:48:39,709 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(22)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2022-06-27 04:48:39,711 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(22)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2022-06-27 04:53:19,954 INFO org.springframework.boot.StartupInfoLogger [main] Starting PrivateblogApplication using Java 1.8.0_201 on DESKTOP-FHEO5LI with PID 9716 (D:\GitHub\privateblog\backend\privateblog\target\classes started by pengt in D:\GitHub\privateblog\backend\privateblog)
+2022-06-27 04:53:19,957 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-06-27 04:53:20,386 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 5000 (http)
+2022-06-27 04:53:20,391 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-5000"]
+2022-06-27 04:53:20,391 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-06-27 04:53:20,392 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-27 04:53:20,461 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-06-27 04:53:20,461 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 484 ms
+2022-06-27 04:53:20,540 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2022-06-27 04:53:20,617 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-06-27 04:53:20,832 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-5000"]
+2022-06-27 04:53:20,840 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 5000 (http) with context path ''
+2022-06-27 04:53:20,844 INFO org.springframework.boot.StartupInfoLogger [main] Started PrivateblogApplication in 1.067 seconds (JVM running for 1.516)
+2022-06-27 04:53:50,996 INFO org.apache.juli.logging.DirectJDKLog [http-nio-5000-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-27 04:53:50,996 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-5000-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-06-27 04:53:50,997 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-5000-exec-1] Completed initialization in 1 ms
+2022-06-27 04:53:51,023 INFO com.privateblog.controller.BlogController [http-nio-5000-exec-1] 上传图片名 :20200324172110_50739.jpg
+2022-06-27 04:57:10,034 INFO com.privateblog.controller.BlogController [http-nio-5000-exec-2] 上传图片名 :20200324172110_50739.jpg
+2022-06-27 05:02:44,895 INFO com.privateblog.controller.BlogController [http-nio-5000-exec-5] 上传图片名 :20200324172110_50739.jpg
+2022-06-27 05:09:01,448 INFO com.privateblog.controller.BlogController [http-nio-5000-exec-7] 上传图片名 :20200324172110_50739.jpg
+2022-06-27 05:18:25,507 INFO com.privateblog.controller.BlogController [http-nio-5000-exec-10] 上传图片名 :20200324172110_50739.jpg
+2022-06-27 05:18:53,627 INFO com.privateblog.controller.BlogController [http-nio-5000-exec-9] 上传图片名 :20200324172110_50739.jpg
+2022-06-27 05:20:48,795 INFO com.privateblog.controller.BlogController [http-nio-5000-exec-3] 上传图片名 :20200324172110_50739.jpg
+2022-06-27 05:21:44,709 INFO com.privateblog.controller.BlogController [http-nio-5000-exec-2] 上传图片名 :20200324172110_50739.jpg
+2022-06-27 05:22:28,345 INFO com.privateblog.controller.BlogController [http-nio-5000-exec-4] 上传图片名 :20200324172110_50739.jpg
+2022-06-27 05:27:23,144 INFO com.privateblog.controller.BlogController [http-nio-5000-exec-7] 上传图片名 :20200324172110_50739.jpg
+2022-06-27 05:28:56,903 INFO com.privateblog.controller.BlogController [http-nio-5000-exec-9] 上传图片名 :20200324172110_50739.jpg
+2022-06-27 05:29:53,179 INFO com.privateblog.controller.BlogController [http-nio-5000-exec-1] 上传图片名 :20200324172110_50739.jpg
+2022-06-27 05:33:08,611 INFO com.privateblog.controller.BlogController [http-nio-5000-exec-4] 上传图片名 :20200324172110_50739.jpg
+2022-06-27 05:38:27,770 INFO com.privateblog.controller.BlogController [http-nio-5000-exec-6] 上传图片名 :20200324172110_5073996624a6c-c25d-4631-9a5b-45e2c615148b.jpg
+2022-06-27 06:06:16,595 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(76)-127.0.0.1] Application shutdown requested.
+2022-06-27 06:06:16,647 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(76)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2022-06-27 06:06:16,650 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(76)-127.0.0.1] HikariPool-1 - Shutdown completed.

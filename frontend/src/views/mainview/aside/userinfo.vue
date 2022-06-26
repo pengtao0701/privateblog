@@ -148,6 +148,10 @@ export default {
                         this.logintitle = getWelcomeText(),
                         // 用户昵称
                         this.nickname = userinfo.nickname
+                        // 用户头像设置
+                        if(userinfo.userprofilephoto){
+                                this.avatarurl = userinfo.userprofilephoto
+                        }
                         //邮箱未验证，弹提醒框
                         if(userinfo.status === 1){
                                 this.$notify.info({

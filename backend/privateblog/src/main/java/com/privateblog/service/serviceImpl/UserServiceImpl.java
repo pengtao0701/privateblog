@@ -50,15 +50,16 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, UserInfoEntity> imp
 		user.P_UserName = signin.username;
 		user.P_PassWord = signin.password;
 		user.P_MailAddres = signin.mailaddres;
+		user.P_UserProfilePhoto = "";
 		// 0: 禁用 ,1: 邮箱未验证 2: 启用
 		user.P_Status = 1;
 		// 0: admin ,1: user
 		user.P_Role = 1;
 		// TODO: 获取用户IP
 		user.P_IPAdd = "";
-		user.P_CreateUser = "admin";
+		user.P_CreateUser = signin.username;
 		user.P_CreateTime = Utils.GetDateNowFormat();
-		user.P_UpdateUser = "admin";
+		user.P_UpdateUser = signin.username;
 		user.P_UpdateTime = Utils.GetDateNowFormat();
 		
 		

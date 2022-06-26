@@ -7,6 +7,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.CorsRegistry;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
+import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 @Configuration
@@ -22,7 +23,20 @@ public class WebMvcConfig implements WebMvcConfigurer {
         List<String> excludeUrl = Arrays.asList("/user/*",  "/swagger-resources/*", "/swagger-ui.html");
 		// 添加自定义拦截器，并拦截对应 url"
 		registry.addInterceptor(new SessionInterceptor()).addPathPatterns("/*").excludePathPatterns(excludeUrl);
+		
 	}
+	
+	@Override
+    public void addResourceHandlers(ResourceHandlerRegistry registry) {
+ 
+        // 注意如果filePath是写死在这里，一定不要忘记尾部的/或者\\，这样才能读取其目录下的文件
+        registry.addResourceHandler("/**").addResourceLocations(
+                "classpath:/META-INF/resources/",
+                "classpath:/resources/",
+                "classpath:/static/",
+                "classpath:/public/",
+                "classpath:/webapp/");
+    }
 	
 	/**
      * 前后端跨域，解决session为空
