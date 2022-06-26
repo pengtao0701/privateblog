@@ -18,4 +18,9 @@ else if (hour < 22){return "晚上好！";}
 else {return "夜里好！";}
 }
 
-export {getWelcomeText}
+let deconstructText = (pText) =>{
+        return console.log(pText)
+}
+
+
+export {getWelcomeText, deconstructText}

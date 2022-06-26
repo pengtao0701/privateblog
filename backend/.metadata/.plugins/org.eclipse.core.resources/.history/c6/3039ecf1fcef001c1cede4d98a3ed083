@@ -1,5 +1,0 @@
-package com.privateblog.model;
-
-public abstract class BaseModel {
-
-}

@@ -4114,3 +4114,424 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact com.baomidou:
 2022-06-25 02:07:31,296 [Worker-24: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
 2022-06-25 02:07:31,296 [Worker-24: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\PrivateBlog\backend\privateblog\src\test\resources
 2022-06-25 15:44:48,299 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-06-26 15:59:51,492 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-06-26 15:59:55,344 [Worker-7: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-26 15:59:55,344 [Worker-7: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-26 15:59:55,351 [Worker-7: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-26 15:59:55,379 [Worker-7: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-06-26 15:59:55,405 [Worker-7: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-26 15:59:55,405 [Worker-7: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-26 15:59:55,405 [Worker-7: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GitHub\privateblog\backend\privateblog\src\test\resources
+2022-06-26 17:59:24,127 [Worker-21: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-26 17:59:24,127 [Worker-21: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-26 17:59:24,129 [Worker-21: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-26 17:59:24,141 [Worker-21: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-06-26 17:59:24,143 [Worker-21: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-26 17:59:24,143 [Worker-21: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-26 17:59:24,144 [Worker-21: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GitHub\privateblog\backend\privateblog\src\test\resources
+2022-06-26 18:00:01,000 [Worker-23: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-26 18:00:01,000 [Worker-23: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-26 18:00:01,000 [Worker-23: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-26 18:00:01,011 [Worker-23: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-06-26 18:00:01,014 [Worker-23: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-26 18:00:01,014 [Worker-23: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-26 18:00:01,014 [Worker-23: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GitHub\privateblog\backend\privateblog\src\test\resources
+2022-06-26 18:00:35,292 [Worker-23: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-26 18:00:35,292 [Worker-23: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-26 18:00:35,293 [Worker-23: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-26 18:00:35,299 [Worker-23: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-06-26 18:00:35,301 [Worker-23: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-26 18:00:35,301 [Worker-23: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-26 18:00:35,301 [Worker-23: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GitHub\privateblog\backend\privateblog\src\test\resources
+2022-06-26 18:02:24,022 [Worker-24: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-26 18:02:24,022 [Worker-24: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-26 18:02:24,023 [Worker-24: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-26 18:02:24,026 [Worker-24: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-06-26 18:02:24,027 [Worker-24: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-26 18:02:24,027 [Worker-24: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-26 18:02:24,027 [Worker-24: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GitHub\privateblog\backend\privateblog\src\test\resources
+2022-06-26 18:02:55,580 [Worker-24: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-26 18:02:55,581 [Worker-24: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-26 18:02:55,581 [Worker-24: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-26 18:02:55,583 [Worker-24: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-06-26 18:02:55,584 [Worker-24: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-26 18:02:55,585 [Worker-24: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-26 18:02:55,585 [Worker-24: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GitHub\privateblog\backend\privateblog\src\test\resources
+2022-06-26 18:17:05,179 [Worker-24: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-26 18:17:05,180 [Worker-24: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-26 18:17:05,181 [Worker-24: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-26 18:17:05,184 [Worker-24: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-06-26 18:17:05,186 [Worker-24: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-26 18:17:05,186 [Worker-24: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-26 18:17:05,186 [Worker-24: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GitHub\privateblog\backend\privateblog\src\test\resources
+2022-06-26 18:29:39,996 [Worker-7: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-26 18:29:39,997 [Worker-7: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-26 18:29:39,997 [Worker-7: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-26 18:29:40,002 [Worker-7: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-06-26 18:29:40,003 [Worker-7: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-26 18:29:40,003 [Worker-7: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-26 18:29:40,003 [Worker-7: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GitHub\privateblog\backend\privateblog\src\test\resources
+2022-06-26 18:29:56,667 [Worker-24: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-26 18:29:56,667 [Worker-24: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-26 18:29:56,667 [Worker-24: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-26 18:29:56,676 [Worker-24: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-06-26 18:29:56,677 [Worker-24: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-26 18:29:56,677 [Worker-24: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-26 18:29:56,677 [Worker-24: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GitHub\privateblog\backend\privateblog\src\test\resources
+2022-06-26 18:33:42,798 [Worker-26: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-26 18:33:42,798 [Worker-26: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-26 18:33:42,798 [Worker-26: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-26 18:33:42,811 [Worker-26: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-06-26 18:33:42,814 [Worker-26: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-26 18:33:42,814 [Worker-26: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-26 18:33:42,814 [Worker-26: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GitHub\privateblog\backend\privateblog\src\test\resources
+2022-06-26 18:42:34,921 [Worker-25: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-26 18:42:34,921 [Worker-25: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-26 18:42:34,922 [Worker-25: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-26 18:42:34,934 [Worker-25: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-06-26 18:42:34,936 [Worker-25: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-26 18:42:34,936 [Worker-25: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-26 18:42:34,936 [Worker-25: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GitHub\privateblog\backend\privateblog\src\test\resources
+2022-06-26 18:45:19,310 [Worker-27: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-26 18:45:19,311 [Worker-27: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-26 18:45:19,311 [Worker-27: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-26 18:45:19,325 [Worker-27: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-06-26 18:45:19,328 [Worker-27: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-26 18:45:19,328 [Worker-27: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-26 18:45:19,328 [Worker-27: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GitHub\privateblog\backend\privateblog\src\test\resources
+2022-06-26 18:50:58,518 [Worker-7: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-26 18:50:58,518 [Worker-7: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-26 18:50:58,518 [Worker-7: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-26 18:50:58,535 [Worker-7: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-06-26 18:50:58,538 [Worker-7: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-26 18:50:58,538 [Worker-7: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-26 18:50:58,538 [Worker-7: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GitHub\privateblog\backend\privateblog\src\test\resources
+2022-06-26 18:51:42,982 [Worker-17: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-26 18:51:42,982 [Worker-17: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-26 18:51:42,982 [Worker-17: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-26 18:51:42,986 [Worker-17: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-06-26 18:51:42,987 [Worker-17: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-26 18:51:42,987 [Worker-17: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-26 18:51:42,987 [Worker-17: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GitHub\privateblog\backend\privateblog\src\test\resources
+2022-06-26 18:54:28,770 [Worker-27: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-26 18:54:28,770 [Worker-27: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-26 18:54:28,770 [Worker-27: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-26 18:54:28,781 [Worker-27: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-06-26 18:54:28,784 [Worker-27: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-26 18:54:28,784 [Worker-27: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-26 18:54:28,784 [Worker-27: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GitHub\privateblog\backend\privateblog\src\test\resources
+2022-06-26 18:58:11,895 [Worker-21: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-26 18:58:11,895 [Worker-21: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-26 18:58:11,895 [Worker-21: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-26 18:58:11,907 [Worker-21: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-06-26 18:58:11,909 [Worker-21: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-26 18:58:11,909 [Worker-21: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-26 18:58:11,909 [Worker-21: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GitHub\privateblog\backend\privateblog\src\test\resources
+2022-06-26 18:59:23,552 [Worker-17: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-26 18:59:23,552 [Worker-17: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-26 18:59:23,552 [Worker-17: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-26 18:59:23,567 [Worker-17: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-06-26 18:59:23,570 [Worker-17: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-26 18:59:23,570 [Worker-17: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-26 18:59:23,570 [Worker-17: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GitHub\privateblog\backend\privateblog\src\test\resources
+2022-06-26 19:01:27,038 [Worker-28: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-26 19:01:27,038 [Worker-28: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-26 19:01:27,038 [Worker-28: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-26 19:01:27,049 [Worker-28: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-06-26 19:01:27,051 [Worker-28: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-26 19:01:27,051 [Worker-28: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-26 19:01:27,051 [Worker-28: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GitHub\privateblog\backend\privateblog\src\test\resources
+2022-06-26 19:02:02,932 [Worker-21: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-26 19:02:02,933 [Worker-21: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-26 19:02:02,933 [Worker-21: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-26 19:02:02,935 [Worker-21: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-06-26 19:02:02,936 [Worker-21: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-26 19:02:02,936 [Worker-21: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-26 19:02:02,936 [Worker-21: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GitHub\privateblog\backend\privateblog\src\test\resources
+2022-06-27 01:22:02,790 [Worker-31: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-27 01:22:02,790 [Worker-31: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-27 01:22:02,791 [Worker-31: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-27 01:22:02,802 [Worker-31: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-06-27 01:22:02,803 [Worker-31: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-27 01:22:02,803 [Worker-31: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-27 01:22:02,803 [Worker-31: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GitHub\privateblog\backend\privateblog\src\test\resources
+2022-06-27 01:22:19,073 [Worker-28: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-27 01:22:19,074 [Worker-28: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-27 01:22:19,074 [Worker-28: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-27 01:22:19,077 [Worker-28: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-06-27 01:22:19,078 [Worker-28: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-27 01:22:19,078 [Worker-28: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-27 01:22:19,078 [Worker-28: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GitHub\privateblog\backend\privateblog\src\test\resources
+2022-06-27 01:36:00,057 [Worker-40: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-27 01:36:00,057 [Worker-40: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-27 01:36:00,057 [Worker-40: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-27 01:36:00,073 [Worker-40: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-06-27 01:36:00,074 [Worker-40: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-27 01:36:00,074 [Worker-40: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-27 01:36:00,074 [Worker-40: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GitHub\privateblog\backend\privateblog\src\test\resources
+2022-06-27 01:37:45,803 [Worker-39: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-27 01:37:45,803 [Worker-39: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-27 01:37:45,804 [Worker-39: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-27 01:37:45,821 [Worker-39: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-06-27 01:37:45,822 [Worker-39: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-27 01:37:45,822 [Worker-39: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-27 01:37:45,822 [Worker-39: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GitHub\privateblog\backend\privateblog\src\test\resources
+2022-06-27 01:38:44,246 [Worker-31: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-27 01:38:44,246 [Worker-31: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-27 01:38:44,246 [Worker-31: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-27 01:38:44,254 [Worker-31: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-06-27 01:38:44,255 [Worker-31: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-27 01:38:44,255 [Worker-31: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-27 01:38:44,255 [Worker-31: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GitHub\privateblog\backend\privateblog\src\test\resources
+2022-06-27 01:39:37,321 [Worker-21: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-27 01:39:37,321 [Worker-21: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-27 01:39:37,322 [Worker-21: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-27 01:39:37,331 [Worker-21: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-06-27 01:39:37,334 [Worker-21: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-27 01:39:37,334 [Worker-21: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-27 01:39:37,334 [Worker-21: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GitHub\privateblog\backend\privateblog\src\test\resources
+2022-06-27 01:42:40,129 [Worker-39: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-27 01:42:40,129 [Worker-39: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-27 01:42:40,129 [Worker-39: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-27 01:42:40,149 [Worker-39: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-06-27 01:42:40,151 [Worker-39: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-27 01:42:40,151 [Worker-39: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-27 01:42:40,151 [Worker-39: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GitHub\privateblog\backend\privateblog\src\test\resources
+2022-06-27 02:23:47,254 [Worker-37: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-27 02:23:47,254 [Worker-37: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-27 02:23:47,256 [Worker-37: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-06-27 02:23:47,256 [Worker-37: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-06-27 02:23:47,257 [Worker-37: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-27 02:23:47,257 [Worker-37: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-27 02:23:47,258 [Worker-37: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GitHub\privateblog\backend\privateblog\src\test\resources
+2022-06-27 02:25:55,279 [Worker-21: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-27 02:25:55,279 [Worker-21: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-27 02:25:55,280 [Worker-21: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-06-27 02:25:55,280 [Worker-21: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-06-27 02:25:55,280 [Worker-21: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-27 02:25:55,280 [Worker-21: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-27 02:25:55,280 [Worker-21: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GitHub\privateblog\backend\privateblog\src\test\resources
+2022-06-27 02:26:03,614 [Worker-35: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-27 02:26:03,614 [Worker-35: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-27 02:26:03,614 [Worker-35: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-06-27 02:26:03,614 [Worker-35: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-06-27 02:26:03,615 [Worker-35: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-27 02:26:03,615 [Worker-35: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-27 02:26:03,615 [Worker-35: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GitHub\privateblog\backend\privateblog\src\test\resources
+2022-06-27 02:27:12,170 [Worker-39: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-27 02:27:12,170 [Worker-39: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-27 02:27:12,170 [Worker-39: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-06-27 02:27:12,170 [Worker-39: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-06-27 02:27:12,172 [Worker-39: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-27 02:27:12,172 [Worker-39: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-27 02:27:12,172 [Worker-39: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GitHub\privateblog\backend\privateblog\src\test\resources
+2022-06-27 02:32:30,065 [Worker-35: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-27 02:32:30,065 [Worker-35: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-27 02:32:30,066 [Worker-35: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-27 02:32:30,083 [Worker-35: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-06-27 02:32:30,085 [Worker-35: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-27 02:32:30,085 [Worker-35: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-27 02:32:30,085 [Worker-35: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GitHub\privateblog\backend\privateblog\src\test\resources
+2022-06-27 02:32:44,548 [Worker-40: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-27 02:32:44,548 [Worker-40: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-27 02:32:44,549 [Worker-40: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-27 02:32:44,556 [Worker-40: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-06-27 02:32:44,559 [Worker-40: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-27 02:32:44,559 [Worker-40: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-27 02:32:44,559 [Worker-40: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GitHub\privateblog\backend\privateblog\src\test\resources
+2022-06-27 02:33:20,132 [Worker-42: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-27 02:33:20,132 [Worker-42: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-27 02:33:20,132 [Worker-42: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-27 02:33:20,138 [Worker-42: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-06-27 02:33:20,139 [Worker-42: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-27 02:33:20,139 [Worker-42: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-27 02:33:20,139 [Worker-42: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GitHub\privateblog\backend\privateblog\src\test\resources
+2022-06-27 02:37:51,602 [Worker-42: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-27 02:37:51,602 [Worker-42: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-27 02:37:51,603 [Worker-42: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-27 02:37:51,610 [Worker-42: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-06-27 02:37:51,612 [Worker-42: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-27 02:37:51,612 [Worker-42: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-27 02:37:51,612 [Worker-42: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GitHub\privateblog\backend\privateblog\src\test\resources
+2022-06-27 02:43:32,082 [Worker-39: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-27 02:43:32,082 [Worker-39: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-27 02:43:32,082 [Worker-39: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-27 02:43:32,098 [Worker-39: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-06-27 02:43:32,101 [Worker-39: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-27 02:43:32,101 [Worker-39: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-27 02:43:32,101 [Worker-39: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GitHub\privateblog\backend\privateblog\src\test\resources
+2022-06-27 02:44:18,262 [Worker-42: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-27 02:44:18,262 [Worker-42: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-27 02:44:18,262 [Worker-42: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-27 02:44:18,265 [Worker-42: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-06-27 02:44:18,266 [Worker-42: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-27 02:44:18,266 [Worker-42: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-27 02:44:18,266 [Worker-42: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GitHub\privateblog\backend\privateblog\src\test\resources
+2022-06-27 02:46:31,811 [Worker-42: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-27 02:46:31,811 [Worker-42: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-27 02:46:31,812 [Worker-42: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-27 02:46:31,826 [Worker-42: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-06-27 02:46:31,828 [Worker-42: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-27 02:46:31,828 [Worker-42: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-27 02:46:31,828 [Worker-42: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GitHub\privateblog\backend\privateblog\src\test\resources
+2022-06-27 02:49:38,613 [Worker-43: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-27 02:49:38,613 [Worker-43: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-27 02:49:38,614 [Worker-43: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-27 02:49:38,631 [Worker-43: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-06-27 02:49:38,632 [Worker-43: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-27 02:49:38,633 [Worker-43: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-27 02:49:38,633 [Worker-43: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GitHub\privateblog\backend\privateblog\src\test\resources
+2022-06-27 02:50:01,476 [Worker-39: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-27 02:50:01,477 [Worker-39: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-27 02:50:01,477 [Worker-39: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-27 02:50:01,479 [Worker-39: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-06-27 02:50:01,479 [Worker-39: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-27 02:50:01,479 [Worker-39: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-27 02:50:01,479 [Worker-39: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GitHub\privateblog\backend\privateblog\src\test\resources
+2022-06-27 02:52:17,987 [Worker-43: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-27 02:52:17,987 [Worker-43: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-27 02:52:17,987 [Worker-43: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-27 02:52:18,003 [Worker-43: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-06-27 02:52:18,005 [Worker-43: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-27 02:52:18,005 [Worker-43: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-27 02:52:18,005 [Worker-43: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GitHub\privateblog\backend\privateblog\src\test\resources
+2022-06-27 02:53:04,182 [Worker-21: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-27 02:53:04,182 [Worker-21: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-27 02:53:04,182 [Worker-21: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-27 02:53:04,185 [Worker-21: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-06-27 02:53:04,186 [Worker-21: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-27 02:53:04,186 [Worker-21: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-27 02:53:04,186 [Worker-21: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GitHub\privateblog\backend\privateblog\src\test\resources
+2022-06-27 02:55:05,515 [Worker-39: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-27 02:55:05,515 [Worker-39: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-27 02:55:05,516 [Worker-39: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-27 02:55:05,519 [Worker-39: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-06-27 02:55:05,520 [Worker-39: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-27 02:55:05,520 [Worker-39: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-27 02:55:05,520 [Worker-39: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GitHub\privateblog\backend\privateblog\src\test\resources
+2022-06-27 02:56:09,177 [Worker-39: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-27 02:56:09,177 [Worker-39: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-27 02:56:09,177 [Worker-39: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-27 02:56:09,183 [Worker-39: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-06-27 02:56:09,185 [Worker-39: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-27 02:56:09,185 [Worker-39: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-27 02:56:09,185 [Worker-39: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GitHub\privateblog\backend\privateblog\src\test\resources
+2022-06-27 02:57:02,650 [Worker-44: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-27 02:57:02,650 [Worker-44: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-27 02:57:02,650 [Worker-44: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-27 02:57:02,659 [Worker-44: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-06-27 02:57:02,660 [Worker-44: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-27 02:57:02,660 [Worker-44: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-27 02:57:02,660 [Worker-44: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GitHub\privateblog\backend\privateblog\src\test\resources
+2022-06-27 02:59:52,274 [Worker-21: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-27 02:59:52,274 [Worker-21: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-27 02:59:52,274 [Worker-21: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-27 02:59:52,288 [Worker-21: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-06-27 02:59:52,291 [Worker-21: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-27 02:59:52,291 [Worker-21: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-27 02:59:52,291 [Worker-21: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GitHub\privateblog\backend\privateblog\src\test\resources
+2022-06-27 03:02:17,444 [Worker-46: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-27 03:02:17,444 [Worker-46: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-27 03:02:17,444 [Worker-46: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-27 03:02:17,448 [Worker-46: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-06-27 03:02:17,448 [Worker-46: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-27 03:02:17,448 [Worker-46: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-27 03:02:17,448 [Worker-46: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GitHub\privateblog\backend\privateblog\src\test\resources
+2022-06-27 03:16:32,679 [Worker-37: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-27 03:16:32,679 [Worker-37: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-27 03:16:32,679 [Worker-37: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-27 03:16:32,683 [Worker-37: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-06-27 03:16:32,684 [Worker-37: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-27 03:16:32,684 [Worker-37: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-27 03:16:32,684 [Worker-37: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GitHub\privateblog\backend\privateblog\src\test\resources
+2022-06-27 03:41:02,428 [Worker-39: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-27 03:41:02,428 [Worker-39: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-27 03:41:02,429 [Worker-39: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-27 03:41:02,455 [Worker-39: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-06-27 03:41:02,457 [Worker-39: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-27 03:41:02,457 [Worker-39: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-27 03:41:02,457 [Worker-39: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GitHub\privateblog\backend\privateblog\src\test\resources
+2022-06-27 03:49:38,574 [Worker-39: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-27 03:49:38,574 [Worker-39: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-27 03:49:38,575 [Worker-39: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-27 03:49:38,590 [Worker-39: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-06-27 03:49:38,591 [Worker-39: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-27 03:49:38,591 [Worker-39: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-27 03:49:38,591 [Worker-39: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GitHub\privateblog\backend\privateblog\src\test\resources
+2022-06-27 03:50:36,215 [Worker-21: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-27 03:50:36,215 [Worker-21: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-27 03:50:36,215 [Worker-21: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-27 03:50:36,219 [Worker-21: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-06-27 03:50:36,220 [Worker-21: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-27 03:50:36,220 [Worker-21: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-27 03:50:36,220 [Worker-21: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GitHub\privateblog\backend\privateblog\src\test\resources
+2022-06-27 03:55:01,053 [Worker-47: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-27 03:55:01,053 [Worker-47: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-27 03:55:01,053 [Worker-47: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-27 03:55:01,074 [Worker-47: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-06-27 03:55:01,076 [Worker-47: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-27 03:55:01,076 [Worker-47: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-27 03:55:01,076 [Worker-47: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GitHub\privateblog\backend\privateblog\src\test\resources
+2022-06-27 03:55:05,564 [Worker-35: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-27 03:55:05,564 [Worker-35: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-27 03:55:05,564 [Worker-35: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-27 03:55:05,568 [Worker-35: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-06-27 03:55:05,569 [Worker-35: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-27 03:55:05,569 [Worker-35: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-27 03:55:05,569 [Worker-35: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GitHub\privateblog\backend\privateblog\src\test\resources
+2022-06-27 03:55:30,410 [Worker-21: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-27 03:55:30,410 [Worker-21: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-27 03:55:30,411 [Worker-21: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-27 03:55:30,414 [Worker-21: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-06-27 03:55:30,415 [Worker-21: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-27 03:55:30,415 [Worker-21: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-27 03:55:30,415 [Worker-21: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GitHub\privateblog\backend\privateblog\src\test\resources
+2022-06-27 04:17:30,589 [Worker-42: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-27 04:17:30,589 [Worker-42: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-27 04:17:30,589 [Worker-42: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-27 04:17:30,593 [Worker-42: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-06-27 04:17:30,595 [Worker-42: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-27 04:17:30,595 [Worker-42: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-27 04:17:30,595 [Worker-42: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GitHub\privateblog\backend\privateblog\src\test\resources
+2022-06-27 04:18:46,382 [Worker-39: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-27 04:18:46,382 [Worker-39: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-27 04:18:46,382 [Worker-39: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-27 04:18:46,386 [Worker-39: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-06-27 04:18:46,387 [Worker-39: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-27 04:18:46,387 [Worker-39: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-27 04:18:46,387 [Worker-39: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GitHub\privateblog\backend\privateblog\src\test\resources
+2022-06-27 04:23:13,738 [Worker-42: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-27 04:23:13,738 [Worker-42: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-27 04:23:13,738 [Worker-42: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-27 04:23:13,752 [Worker-42: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-06-27 04:23:13,754 [Worker-42: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-27 04:23:13,754 [Worker-42: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-27 04:23:13,754 [Worker-42: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GitHub\privateblog\backend\privateblog\src\test\resources
+2022-06-27 04:26:37,894 [Worker-35: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-27 04:26:37,894 [Worker-35: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-27 04:26:37,894 [Worker-35: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-27 04:26:37,915 [Worker-35: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-06-27 04:26:37,917 [Worker-35: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-27 04:26:37,917 [Worker-35: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-27 04:26:37,917 [Worker-35: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GitHub\privateblog\backend\privateblog\src\test\resources
+2022-06-27 04:49:42,922 [Worker-35: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-27 04:49:42,923 [Worker-35: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-27 04:49:42,923 [Worker-35: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-27 04:49:42,935 [Worker-35: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-06-27 04:49:42,936 [Worker-35: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-27 04:49:42,937 [Worker-35: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-27 04:49:42,937 [Worker-35: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GitHub\privateblog\backend\privateblog\src\test\resources
+2022-06-27 04:49:56,213 [Worker-42: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-27 04:49:56,213 [Worker-42: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-27 04:49:56,214 [Worker-42: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-27 04:49:56,217 [Worker-42: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-06-27 04:49:56,218 [Worker-42: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-27 04:49:56,218 [Worker-42: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-27 04:49:56,218 [Worker-42: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GitHub\privateblog\backend\privateblog\src\test\resources
+2022-06-27 04:50:50,427 [Worker-44: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-27 04:50:50,427 [Worker-44: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-27 04:50:50,427 [Worker-44: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-27 04:50:50,431 [Worker-44: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-06-27 04:50:50,432 [Worker-44: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-27 04:50:50,432 [Worker-44: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-06-27 04:50:50,432 [Worker-44: 构建工作空间] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\GitHub\privateblog\backend\privateblog\src\test\resources

@@ -2,7 +2,7 @@
  * @Author: pengtao.blog 
  * @Date: 2022-06-17 00:27:53 
  * @Last Modified by: pengtao.blog
- * @Last Modified time: 2022-06-22 21:59:08
+ * @Last Modified time: 2022-06-26 21:13:25
  */
 import Vue from "vue";
 import VueRouter from "vue-router";
@@ -13,7 +13,11 @@ import ApiView from "../views/mainview/apipage.vue";
 import AboutView from "../views/mainview/aboutpage.vue";
 import NotFound from "../components/404/index.vue";
 import Mainindex from "../views/mainindex.vue"
-
+import Editblog from "../views/mainview/editblog.vue"
+import ElementUI from 'element-ui'
+import 'element-ui/lib/theme-chalk/index.css'
+Vue.use(ElementUI)
+import { Message } from 'element-ui'
 
 
 Vue.use(VueRouter);
@@ -26,7 +30,7 @@ const routes = [
         component: Home,
         children: [
             {
-                path: "/",
+                path: "",
                 redirect: "/mainindex"
             },
             {
@@ -41,18 +45,24 @@ const routes = [
                 path: "/aboutview",
                 component: AboutView,
             },
+            
             {
                 path: "/mainindex",
                 component: Mainindex,
                 children: [
                     {
-                        path: "/",
+                        path: "",
                         redirect: "/mianblog"
                     },
                     {
                         path: '/mianblog',
                         component: MainBlog
-                    }
+                    },
+                    {
+                        path: "/editblog",
+                        component: Editblog,
+                    },
+                   
                 ]
             },
         ]
@@ -93,6 +103,7 @@ router.beforeEach((to, from, next) => {
         let token = localStorage.getItem('token');
         // 判断token是否为空如果为空则跳转到登录页 如果有则放行
         if (token === null || token === '') {
+             Message.error('请先登录后再访问!');
           next({path:'/'});
         } else {
           next();

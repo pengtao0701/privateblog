@@ -7,9 +7,13 @@
       <el-menu-item-group class="el-submenu-item-group">
         <el-menu-item index="1-1">
         <i class="el-icon-document-copy"/>我的博客</el-menu-item>
+        <router-link style="text-decoration: none;" to="/editblog">
         <el-menu-item index="1-2">
+        
           <i class="el-icon-edit-outline" />发布博客
+          
         </el-menu-item>
+        </router-link>
         <el-menu-item index="1-3">
           <i class="el-icon-chat-dot-square"/>评论
         </el-menu-item>

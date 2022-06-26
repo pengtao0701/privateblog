@@ -8,13 +8,13 @@
                         </el-row>
                 </el-col>
                 <el-col :span="6">
-                        <span class="statis-text-style">被点赞</span>
+                        <span class="statis-text-style">获点赞</span>
                         <el-row class="statis-text-style">
                           <span>{{ num }}</span>
                         </el-row>
                 </el-col>
                 <el-col :span="6">
-                        <span class="statis-text-style">关注者</span>
+                        <span class="statis-text-style">关注中</span>
                         <el-row class="statis-text-style">
                           <span >{{ num }}</span>
                         </el-row>

@@ -27,6 +27,11 @@ public class UserInfoModel {
 	
 	@Getter
 	@Setter
+	// 用户头像
+	public String userprofilephoto;
+	
+	@Getter
+	@Setter
 	// 用户状态
 	public int status;
 
