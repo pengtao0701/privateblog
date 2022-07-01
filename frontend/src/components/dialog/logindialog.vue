@@ -11,7 +11,7 @@
                                         <!-- prop双向数据绑定data-->
                                         <el-form-item class="el-form-item-style" label="账号" prop="username">
                                                 <el-input class="username-input" v-model="loginForm.username"
-                                                        placeholder="请输入邮箱或用户名" />
+                                                         placeholder="请输入邮箱或用户名" />
                                         </el-form-item>
                                         <el-form-item class="el-form-item-style" label="密码" prop="password">
                                                 <el-input class="password-input" v-model="loginForm.password"
@@ -94,7 +94,7 @@ export default {
                         that.fullscreenLoading = true
                         this.$refs[loginForm].validate((valid) => {
                                 if (valid) {
-                                        this.$api.login.login(this.loginForm)
+                                        this.$api.user.login(this.loginForm)
                                                 .then(response => {
                                                         console.log("请求成功返回response:" + response)
                                                         const { code, message, data } = response;
@@ -141,10 +141,12 @@ export default {
                 setUserInfo(data) {
                         let responsedate = {
                                 isLogin: true,
+                                uuid: data.uuid,
                                 nickname: data.nickname,
                                 username: data.username,
                                 mailaddres: data.mailaddres,
-                                uuid: data.uuid,
+                                userprofilephoto: data.userprofilephoto,
+                                introduction: data.introduction,
                                 status: data.status,
 
                         }

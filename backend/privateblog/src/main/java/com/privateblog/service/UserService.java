@@ -5,14 +5,16 @@ import java.util.List;
 import org.springframework.stereotype.Repository;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.privateblog.entity.UserInfoEntity;
+import com.privateblog.entity.UserEntity;
 import com.privateblog.model.LoginModel;
 import com.privateblog.model.SigninModel;
 
 @Repository
-public interface UserService extends IService<UserInfoEntity> {
+public interface UserService extends IService<UserEntity> {
 
-	public List<UserInfoEntity> getUserInfo(LoginModel loginModel);
+	public List<UserEntity> getUserInfo(LoginModel loginModel);
+	
+	public UserEntity getUserInfobyUUID(String UUID);
 	
 	public void insertUserInfo(SigninModel signin);
 	

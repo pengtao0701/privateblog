@@ -12,9 +12,9 @@
                                         <Userinfo></Userinfo>
                                 </el-aside>
                                 <!-- 最新发布 -->
-                                <el-aside class="el-aside-style">
+                                <!--<el-aside class="el-aside-style">
                                         <Newblog></Newblog>
-                                </el-aside>
+                                </el-aside> -->
                                 <!-- 分类 -->
                                 <el-aside class="el-aside-style">
                                         <Sort></Sort>

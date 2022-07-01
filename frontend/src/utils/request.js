@@ -2,7 +2,7 @@
  * @Author: pengtao.blog 
  * @Date: 2022-06-17 00:27:57 
  * @Last Modified by: pengtao.blog
- * @Last Modified time: 2022-06-27 05:01:53
+ * @Last Modified time: 2022-07-01 19:43:05
  */
 import Vue from "vue";
 import VueRouter from "vue-router";
@@ -17,15 +17,15 @@ axios.defaults.withCredentials = true
 // 请求超时设置 5秒
 const request = axios.create({
     baseURL:'http://localhost:5000/api/',                //后端url和端口指定
-    timeout: 5000,
+    timeout: 10000,
     headers: {
         'Content-Type': 'application/json; charset=utf-8'
       }
 });
 
 // 设置请求次数，请求的间隙
-request.defaults.retry = 4;
-request.defaults.retryDelay = 1000;
+//request.defaults.retry = 4;
+//request.defaults.retryDelay = 1000;
 
 
 // 拦截器：将Token放入header

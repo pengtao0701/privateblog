@@ -29,7 +29,7 @@ public class WebMvcConfig implements WebMvcConfigurer {
 	@Override
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
  
-        // 注意如果filePath是写死在这里，一定不要忘记尾部的/或者\\，这样才能读取其目录下的文件
+        // 允许访问 /target/classic/**下面的这些文件夹
         registry.addResourceHandler("/**").addResourceLocations(
                 "classpath:/META-INF/resources/",
                 "classpath:/resources/",

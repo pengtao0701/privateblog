@@ -5,7 +5,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
-import com.privateblog.entity.UserInfoEntity;
+import com.privateblog.entity.UserEntity;
 import com.privateblog.mapper.UserMapper;
 
 @SpringBootTest
@@ -25,10 +25,10 @@ public class mybatisplustest {
 
 	@Test
 	public void select() {
-		QueryWrapper<UserInfoEntity> wrapper = new QueryWrapper<UserInfoEntity>();
+		QueryWrapper<UserEntity> wrapper = new QueryWrapper<UserEntity>();
 		wrapper.eq("P_ID", 1);
 
-		UserInfoEntity result = userMapper.selectOne(wrapper);
+		UserEntity result = userMapper.selectOne(wrapper);
 
 		System.out.println(result);
 	}

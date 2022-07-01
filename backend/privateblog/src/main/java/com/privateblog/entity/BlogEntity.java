@@ -20,6 +20,10 @@ public class BlogEntity {
 	
 	public String P_Blog_Title;
 	
+	public String P_Blog_Cover_Img;
+	
+	public String P_Blog_Synopsis;
+	
 	public String P_Blog_Content;
 	
 	public int P_Blog_Views;

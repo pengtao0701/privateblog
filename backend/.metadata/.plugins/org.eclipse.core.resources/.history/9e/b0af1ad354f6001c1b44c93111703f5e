@@ -1,0 +1,31 @@
+package com.privateblog.service.serviceImpl;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.privateblog.entity.LabelEntity;
+import com.privateblog.mapper.LabelMapper;
+import com.privateblog.service.LabelService;
+
+@Service
+@Transactional
+public class LabelServiceImpl extends ServiceImpl<LabelMapper, LabelEntity> implements LabelService {
+
+	@Autowired
+	private LabelMapper labelMapper;
+	
+	@Transactional
+	public List<LabelEntity> getAllLabel() {
+		List<LabelEntity> result = new ArrayList<LabelEntity>();
+		
+		// selectList(null)查询所有记录
+		result = labelMapper.selectList(null);
+		return result;
+	}
+
+}

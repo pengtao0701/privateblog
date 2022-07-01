@@ -1,0 +1,31 @@
+package com.privateblog.model;
+
+import lombok.Getter;
+import lombok.Setter;
+
+/**
+ * @author pengt 
+ * 博客分类Model
+ */
+public class SortModel {
+
+	@Getter
+	@Setter
+	public int sortID;
+
+	@Getter
+	@Setter
+	public String sortName;
+	
+	@Getter
+	@Setter
+	public String sortAlias;
+	
+	@Getter
+	@Setter
+	public String sortDescription;
+	
+	@Getter
+	@Setter
+	public int parentSortID;
+}

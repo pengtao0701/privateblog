@@ -2,7 +2,7 @@
  * @Author: pengtao.blog 
  * @Date: 2022-06-17 23:07:43 
  * @Last Modified by: pengtao.blog
- * @Last Modified time: 2022-06-23 01:13:37
+ * @Last Modified time: 2022-06-29 02:48:29
  */
 <template>
   <div id="app">
@@ -32,13 +32,13 @@ export default {
       this.isRouterAlive = false;
       this.$nextTick(function () {
         this.isRouterAlive = true;
-        this.$router.push('/', () => {})
+        this.$router.push('/', () => { })
       });
     }
   },
 
   created() {
-    
+
   },
   mounted() {
   },
@@ -49,6 +49,7 @@ export default {
 </script>
     <style >
     
+
     html {
       height: 100%;
     }
@@ -63,5 +64,8 @@ export default {
       background-color: whitesmoke;
     }
     
-    
+    .el-tag+.el-tag {
+      margin-left: 10px;
+      margin-top: 5px;
+    }
     </style>

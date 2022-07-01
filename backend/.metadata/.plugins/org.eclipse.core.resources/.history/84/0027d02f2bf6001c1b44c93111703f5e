@@ -1,0 +1,5 @@
+package com.privateblog.service;
+
+public class BlogService {
+
+}

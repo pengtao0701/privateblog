@@ -1,3 +1,5 @@
 1656261759909	重命名类型“FileUpload”
 1656264355163	重命名资源“upload”
 1656271126268	将“static”移至“classes”
+1656352973703	重命名类型“UserInfoEntity”
+1656594165726	重命名类型“EditBlogInitShowResult”

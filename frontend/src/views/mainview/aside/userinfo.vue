@@ -15,7 +15,7 @@
                         </el-col>
                         <el-col :span="15">
                                 <div class="sub-title">{{ logintitle }}</div>
-                                <div class="sub-nickname">{{ nickname }}</div>
+                                <div class="sub-introduction">{{ introduction }}</div>
                         </el-col>
                         <br />
                 </el-row>
@@ -23,7 +23,10 @@
 
                 <el-row type="flex" v-if="lsbuttonVisible" class="el-row-loginbuttonstyle" justify="space-around">
                         <el-col :span="9">
-                                <el-button icon="el-icon-user-solid" type="primary" round @click="showLoginDialog()">登录
+                                <el-button  type="primary" round @click="showLoginDialog()">
+                                
+                                <i class="icon-enter"></i>
+                                 登录
                                 </el-button>
 
                         </el-col>
@@ -76,14 +79,14 @@ export default {
         data() {
 
 
-                this.num = this.createUUID(11, 8);
+                //this.num = this.createUUID(11, 8);
                 return {
 
                         // 登录注册按钮是否显示
                         lsbuttonVisible: true,
 
                         logintitle: getWelcomeText(),
-                        nickname: "未登录",
+                        introduction: "未登录",
                         avatarurl: require('../../../assets/images/visitor.png'),
                         // 登录按钮初始化false
                         loginDialogVisible: false,
@@ -144,10 +147,10 @@ export default {
                         console.log("userinfo初始化登录注册按钮不显示 " + this.lsbuttonVisible)
                         // 登录注册按钮不显示
                         this.lsbuttonVisible = false,
-                        // 欢迎语
-                        this.logintitle = getWelcomeText(),
-                        // 用户昵称
-                        this.nickname = userinfo.nickname
+                        // 用户昵称 
+                        this.logintitle = userinfo.nickname ,
+                        // 用户介绍
+                        this.introduction = userinfo.introduction
                         // 用户头像设置
                         if(userinfo.userprofilephoto){
                                 this.avatarurl = userinfo.userprofilephoto
@@ -197,8 +200,8 @@ export default {
         margin-bottom: 7px;
 }
 
-/* 用户昵称 */
-.sub-nickname {}
+/* 用户介绍 */
+.sub-introduction {}
 
 /* 侧边栏登录注册按钮 */
 .el-row-loginbuttonstyle {
@@ -218,6 +221,10 @@ export default {
         text-align: center;
         width: 100%;
         min-height: 100%;
+}
+
+.icon-enter:before{
+        content: "\ea13";
 }
 
 .el-input.username-input,

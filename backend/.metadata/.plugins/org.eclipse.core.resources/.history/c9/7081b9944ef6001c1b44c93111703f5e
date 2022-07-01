@@ -1,0 +1,22 @@
+package com.privateblog.model;
+
+import java.util.List;
+
+import lombok.Getter;
+import lombok.Setter;
+
+/**
+ * @author pengt
+ * @deprecated 编辑博客初期化返回model
+ */
+public class EditBlogInitShowResult {
+
+	
+	
+	
+	@Getter
+	@Setter
+	// 标签list
+	List<LabelModel> labelModels;
+
+}
