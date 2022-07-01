@@ -9,6 +9,8 @@ This is a personal blog forum project, and I record my development problems in t
 3.博客标签----------------OK  
 4.博客正文图片上传+回显----OK  
 5.博客简介----------------OK  
+6.博客上传----------------OK  
+7.博客preview----------------OK  
   
 ·首页  
 1.左侧显示所有博客文章  
