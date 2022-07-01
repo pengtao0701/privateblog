@@ -19,6 +19,8 @@ This is a personal blog forum project, and I record my development problems in t
 3-2.右侧边栏发布短博客-----OK  
 3-3.个人资料--------------OK  
 3-4.退出------------------OK  
+4.右侧边栏所有最新分类------OK  
+5.右侧边栏所有最新分类------OK  
 
 ·用户主页  
 1.编辑个人信息  
