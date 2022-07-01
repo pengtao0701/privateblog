@@ -32,6 +32,11 @@ public class UserInfoModel {
 	
 	@Getter
 	@Setter
+	// 用户介绍
+	public String introduction;
+	
+	@Getter
+	@Setter
 	// 用户状态
 	public int status;
 

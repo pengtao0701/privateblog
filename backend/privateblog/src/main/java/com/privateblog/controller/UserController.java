@@ -23,23 +23,27 @@ import com.privateblog.common.utils.TokenUtil;
 import com.privateblog.common.utils.Utils;
 import com.privateblog.common.utils.ValidateCodeUtil;
 import com.privateblog.config.ConstantProperties;
-import com.privateblog.entity.UserInfoEntity;
+import com.privateblog.entity.UserEntity;
+import com.privateblog.entity.UserLoginLogEntity;
 import com.privateblog.model.LoginModel;
 import com.privateblog.model.SigninModel;
 import com.privateblog.model.UserInfoModel;
+import com.privateblog.service.BaseApiService;
+import com.privateblog.service.UserLoginLogService;
 import com.privateblog.service.UserService;
 
 @RestController
 @RequestMapping("/api/User")
 public class UserController {
 
-	private static final Logger LOGGER = LogManager.getLogger(UserController.class);
+	private static final Logger log = LogManager.getLogger(UserController.class);
 
 	@Autowired(required = true)
-	private UserService userService;
-	public UserInfoEntity userInfo;
-
-
+	public UserService userService;
+	@Autowired(required = true)
+	public UserLoginLogService userLoginLogService;
+	@Autowired(required = true)
+	public BaseApiService baseApiService;
 
 	/**
 	 *  用户登录API
@@ -48,8 +52,11 @@ public class UserController {
 	 */
 	@PostMapping("/Login")
 	@ResponseBody
-	public CommonResult<Object> Login(@RequestBody LoginModel model) {
+	public CommonResult<Object> Login(@RequestBody LoginModel model,HttpServletRequest request) {
+
 		UserInfoModel result = new UserInfoModel();
+		//HttpSession session = request.getSession();
+
 		if (model.username != "" && model.password != "" && model.username != null && model.password != null) {
 			// 判断是否为邮箱
 			if (Utils.isEmail(model.username)) {
@@ -58,25 +65,29 @@ public class UserController {
 			}
 
 			// 取得userinfo
-			List<UserInfoEntity> userList = userService.getUserInfo(model);
+			List<UserEntity> userList = userService.getUserInfo(model);
 			if (userList.size() > 0) {
-				for (UserInfoEntity user : userList) {
-					result.uuid = user.P_UUID;
-					result.nickname = user.P_NickName;
-					result.mailaddres = user.P_MailAddres;
-					result.username = user.P_UserName;
-					result.userprofilephoto = user.P_UserProfilePhoto;
-					result.status = user.P_Status;
-
-				}
+				// result存放用户信息
+				result = GetUserInfo(userList, result);
 			} else {
 				// CommonResult.ok().setResult(book);
 				// 未找到该用户
 				return CommonResult.fail(ErrorCodeEnum.USER_Not_Found_ERROR);
 			}
-
 			// 创建Token
 			result.token = TokenUtil.sign(result);
+			// insert登录记录
+			UserLoginLogEntity loginEntity = new UserLoginLogEntity();
+			loginEntity.P_UUID = result.uuid;
+			loginEntity.P_Token = result.token;
+			loginEntity.P_Last_Login_Date =  Utils.GetDateNowFormat();
+			if(userLoginLogService.checkLoginLogVaild(loginEntity)) {
+				userLoginLogService.insertUserLoginLog(loginEntity);
+			}else {
+				userLoginLogService.deleteUserLoginLog(loginEntity);
+				userLoginLogService.insertUserLoginLog(loginEntity);
+			}
+			
 
 		} else {
 			// 用户名密码为空
@@ -107,12 +118,12 @@ public class UserController {
 				signin.vcode.equals(null) || signin.vcode.equals("") ) {
 			return CommonResult.fail(ErrorCodeEnum.SIGNIN_FORM_ERROR);
 		}
-		
+
 		// 判断是否为邮箱
 		if (!Utils.isEmail(signin.mailaddres)) {
 			return CommonResult.fail(ErrorCodeEnum.MAIL_ERROR);
 		}
-		
+
 		// 校验验证码
 		if (getCheckCaptcha(signin.vcode, session)) {
 			return CommonResult.fail(ErrorCodeEnum.VCODE_ERROR);
@@ -126,7 +137,7 @@ public class UserController {
 		if(!userService.checkMailVaild(signin)) {
 			return CommonResult.fail(ErrorCodeEnum.MAIL_ISEXIST_ERROR);
 		}
-		
+
 		// 设置UUID
 		signin.uuid = Utils.GetUUID();
 		// 设置初始值用户昵称
@@ -134,28 +145,55 @@ public class UserController {
 		// 登录用户数据库
 		userService.insertUserInfo(signin);
 
-		// 创建Token
-		result.token = TokenUtil.sign(result);
-
 		// 获取用户信息
 		LoginModel model = new LoginModel();
 		model.username = signin.username;
 		model.password = signin.password;
-		List<UserInfoEntity> userList = userService.getUserInfo(model);
-		if (userList.size() > 0) {
-			for (UserInfoEntity user : userList) {
-				result.uuid = user.P_UUID;
-				result.nickname = user.P_NickName;
-				result.mailaddres = user.P_MailAddres;
-				result.username = user.P_UserName;
-				result.status = user.P_Status;
-			}
+		List<UserEntity> userList = userService.getUserInfo(model);
+		if(userList.size() > 0) {
+			// result存放用户信息
+			result = GetUserInfo(userList, result);
 		}else {
-			return CommonResult.fail(ErrorCodeEnum.SIGNIN_INSERT_ERROR);
+			// 未找到该用户
+			return CommonResult.fail(ErrorCodeEnum.USER_Not_Found_ERROR);
 		}
+		// 创建Token
+		result.token = TokenUtil.sign(result);
+		// insert登录记录
+		UserLoginLogEntity loginEntity = new UserLoginLogEntity();
+		loginEntity.P_UUID = result.uuid;
+		loginEntity.P_Token = result.token;
+		loginEntity.P_Last_Login_Date =  Utils.GetDateNowFormat();
+		userLoginLogService.insertUserLoginLog(loginEntity);
 
 		return CommonResult.ok(SuccessCodeEnum.PARAM_EMPTY).setResult(result);
 	}
+	
+	/**
+	 * 	  退出登录
+	 * @param request
+	 * @param response
+	 * @param session
+	 */
+	@PostMapping("/Logout")
+	@ResponseBody
+	public CommonResult<Object> Logout(HttpServletRequest request, HttpServletResponse response) {
+		
+		UserInfoModel userinfo = new UserInfoModel();
+		UserLoginLogEntity loginEntity = new UserLoginLogEntity();
+		
+		String tokenID = request.getHeader("Authorization");
+		if(tokenID.isEmpty()) {
+			return CommonResult.fail(ErrorCodeEnum.TOKEN_ERROR);
+		}
+		
+		userinfo = baseApiService.GetUserInfo(tokenID);
+		loginEntity.P_UUID = userinfo.uuid;
+		userLoginLogService.deleteUserLoginLog(loginEntity);
+		
+		return CommonResult.ok(SuccessCodeEnum.PARAM_EMPTY);
+	}
+	
 
 	/**
 	 * 	  获取验证码API
@@ -201,4 +239,25 @@ public class UserController {
 		}
 
 	}
+
+	// 将数据库取到的用户信息放入userinfomodel
+	private UserInfoModel GetUserInfo(List<UserEntity> userList,UserInfoModel result ) {
+		for (UserEntity user : userList) {
+			result.uuid = user.P_UUID;
+			result.nickname = user.P_NickName;
+			result.mailaddres = user.P_MailAddres;
+			result.username = user.P_UserName;
+			result.userprofilephoto = user.P_UserProfilePhoto;
+			result.introduction = user.P_UserIntroduction;
+			result.status = user.P_Status;
+		}
+		return result;
+	}
+
+	private UserInfoModel GetUserStatis(UserInfoModel result) {
+		return null;
+		
+		
+	}
+
 }

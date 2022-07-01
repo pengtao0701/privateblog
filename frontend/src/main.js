@@ -2,7 +2,7 @@
  * @Author: pengtao.blog 
  * @Date: 2022-06-17 00:28:00 
  * @Last Modified by: pengtao.blog
- * @Last Modified time: 2022-06-27 04:32:59
+ * @Last Modified time: 2022-06-30 22:34:36
  */
 import Vue from 'vue'
 import App from './App.vue'
@@ -12,6 +12,7 @@ import router from './router';
 import api from './api';
 import Baseurl from './api/baseurl'
 import axios from 'axios'
+import './common/stylus/icon.styl';
 
 Vue.use(ElementUI);
 Vue.config.productionTip = false
@@ -19,9 +20,11 @@ Vue.prototype.$api = api
 Vue.prototype.$baseUrl = Baseurl
 axios.defaults.baseURL = Baseurl.baseurl
 axios.defaults.withCredentials = true
+
 //请求次数，请求的间隙
-axios.defaults.retry = 4;
-axios.defaults.retryDelay = 1000;
+//axios.defaults.retry = 4;
+//axios.defaults.retryDelay = 1000;
+
 axios.interceptors.response.use(undefined, function axiosRetryInterceptor(err) {
   var config = err.config;
   // If config does not exist or the retry option is not set, reject

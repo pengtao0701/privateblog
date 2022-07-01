@@ -1,0 +1,47 @@
+package com.privateblog.model;
+
+import java.time.LocalDateTime;
+
+import lombok.Getter;
+import lombok.Setter;
+
+public class EditBloguploadModel {
+
+	@Getter
+	@Setter
+	public String UUID;
+	
+	@Getter
+	@Setter
+	public String blogTitle;
+	
+	@Getter
+	@Setter
+	public String blogContent;
+	
+	@Getter
+	@Setter
+	// 分类
+	public String blogSort;
+	
+	@Getter
+	@Setter
+	// 标签
+	public String blogLabel;
+	
+	@Getter
+	@Setter
+	public int blogViews;
+	
+	@Getter
+	@Setter
+	public int blogCommentCount;
+	
+	@Getter
+	@Setter
+	public int blogLikeCount;
+	
+	@Getter
+	@Setter
+	public LocalDateTime blogDate;
+}

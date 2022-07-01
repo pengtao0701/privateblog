@@ -13,7 +13,6 @@ public class BlogLabelEntity {
 	@TableId(value = "P_Blog_ID")
 	public int P_Blog_ID;
 
-	@TableId(value = "P_Label_ID")
 	public int P_Label_ID;
 	
 }

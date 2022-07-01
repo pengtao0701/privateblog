@@ -13,7 +13,6 @@ public class BlogSortEntity {
 	@TableId(value = "P_Sort_ID")
 	public int P_Sort_ID;
 	
-	@TableId(value = "P_Blog_ID")
 	public int P_Blog_ID;
 
 }

@@ -1,5 +1,5 @@
 <template>
-<el-row type="flex" class="row-bg" justify="center">
+<el-row type="flex" class="row-bg el-row-statis" justify="center" >
         <el-row :gutter="24" class="el-row-statis">
                 <el-col :span="6">
                         <span class="statis-text-style">阅读数</span>

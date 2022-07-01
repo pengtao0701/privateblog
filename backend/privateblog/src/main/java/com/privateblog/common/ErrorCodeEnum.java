@@ -14,6 +14,7 @@ public enum ErrorCodeEnum implements IMessage {
 	VCODE_ERROR("500", "请输入正确的验证码"), 
 	USER_Not_Found_ERROR("500", "未找到该用户"),
 	REQUEST_ERROR("500", "请求失败请稍后再试"), 
+	BlogSave_ERROR("500", "博客保存失败"), 
 	IMAGES_UPLOAD_ERROR("500", "上传图片失败"), 
 	
 	PARAM_EMPTY("500", "必选参数为空"),

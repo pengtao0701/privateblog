@@ -4,26 +4,21 @@
       <template slot="title">
         <i class="el-icon-menu"></i>个人中心
       </template>
-      <el-menu-item-group class="el-submenu-item-group">
-        <el-menu-item index="1-1">
-        <i class="el-icon-document-copy"/>我的博客</el-menu-item>
+      <el-menu-item-group>
+      
         <router-link style="text-decoration: none;" to="/editblog">
-        <el-menu-item index="1-2">
-        
+        <el-menu-item index="1-1">
           <i class="el-icon-edit-outline" />发布博客
-          
         </el-menu-item>
         </router-link>
-        <el-menu-item index="1-3">
-          <i class="el-icon-chat-dot-square"/>评论
+
+        <router-link style="text-decoration: none;" to="/userpage">
+        <el-menu-item index="1-2">
+          <i class="el-icon-setting" />个人资料
         </el-menu-item>
-        <el-menu-item index="1-4">
-          <i class="el-icon-star-off"/>收藏
-        </el-menu-item>
-        <el-menu-item index="1-5">
-          <i class="el-icon-setting" />个人设置
-        </el-menu-item>
-        <el-menu-item index="1-6" @click="logout">
+        </router-link>
+
+        <el-menu-item index="1-3" @click="logout">
           <i class="el-icon-switch-button" />退出
         </el-menu-item>
       </el-menu-item-group>
@@ -41,9 +36,15 @@ export default {
 
   methods: {
     logout() {
-      localStorage.removeItem('userinfo');
-      localStorage.removeItem('token');
-      this.$router.go(0)
+      this.$api.user.logout().then(response => {
+        
+          localStorage.removeItem('userinfo');
+          localStorage.removeItem('token');
+          this.$router.go(0)
+        
+        
+      })
+      
     }
   },
 

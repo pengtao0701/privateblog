@@ -1,0 +1,38 @@
+package com.privateblog.service.serviceImpl;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.privateblog.entity.UserLoginLogEntity;
+import com.privateblog.mapper.UserLoginLogMapper;
+import com.privateblog.service.UserLoginLogService;
+
+@Service
+@Transactional
+public class UserLoginLogSereviceImpl extends ServiceImpl<UserLoginLogMapper, UserLoginLogEntity> implements UserLoginLogService{
+
+	@Autowired
+	private UserLoginLogMapper UserLoginLogMapper;
+
+	@Transactional
+	public void insertUserLoginLog(UserLoginLogEntity loginEntity) {
+		// TODO 自动生成的方法存根
+		
+	}
+
+	@Transactional
+	public UserLoginLogEntity selectLogbyToken(UserLoginLogEntity loginEntity) {
+		// TODO 自动生成的方法存根
+		return null;
+	}
+
+	@Transactional
+	public void deleteUserLoginLog(UserLoginLogEntity loginEntity) {
+		// TODO 自动生成的方法存根
+		
+	}
+	
+	
+}

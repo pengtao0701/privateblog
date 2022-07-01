@@ -1,0 +1,11 @@
+package com.privateblog.service;
+
+import org.springframework.stereotype.Repository;
+
+import com.baomidou.mybatisplus.extension.service.IService;
+import com.privateblog.entity.BlogEntity;
+
+@Repository
+public interface BlogLabelService extends IService<BlogLabelEntity>{
+
+}

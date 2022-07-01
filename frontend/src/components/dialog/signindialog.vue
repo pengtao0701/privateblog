@@ -155,7 +155,7 @@ export default {
                         this.fullscreenLoading = true
                         this.$refs[signForm].validate((valid) => {
                                 if (valid) {
-                                        this.$api.signin.signin(this.signForm)
+                                        this.$api.user.signin(this.signForm)
                                                 .then(response => {
                                                         const { code, message, data } = response;
                                                         // signin请求成功

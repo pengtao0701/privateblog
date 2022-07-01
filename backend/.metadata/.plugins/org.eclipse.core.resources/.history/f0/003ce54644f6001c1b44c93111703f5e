@@ -1,0 +1,15 @@
+package com.privateblog.service.serviceImpl;
+
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.privateblog.entity.BlogLabelEntity;
+import com.privateblog.mapper.BlogLabelMapper;
+import com.privateblog.service.BlogLabelService;
+
+@Service
+@Transactional
+public class BlogLabelServiceImpl  extends ServiceImpl<BlogLabelMapper, BlogLabelEntity> implements BlogLabelService{
+
+}

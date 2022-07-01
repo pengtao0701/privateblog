@@ -1,7 +1,15 @@
 <template>
-        <div>
-                <h1>这是最新博客页</h1>
-        </div>
+        <el-row>
+                <el-col>
+                        <span>最新博客</span>
+                        <el-divider class="newbloglist-divider"></el-divider>
+                </el-col>
+
+                <el-col>
+                <el-skeleton :loading="true"/>
+                <el-divider></el-divider>
+                </el-col>
+        </el-row>
 </template>
 
 <script>
@@ -13,5 +21,8 @@ export default {
 }
 
 </script>
-<style  lang="scss" scoped>
+<style >
+.newbloglist-divider {
+        margin-top: 15px;
+}
 </style>

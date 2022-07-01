@@ -2,7 +2,7 @@
  * @Author: pengtao.blog 
  * @Date: 2022-06-17 00:27:53 
  * @Last Modified by: pengtao.blog
- * @Last Modified time: 2022-06-26 21:13:25
+ * @Last Modified time: 2022-06-28 22:40:29
  */
 import Vue from "vue";
 import VueRouter from "vue-router";
@@ -14,6 +14,7 @@ import AboutView from "../views/mainview/aboutpage.vue";
 import NotFound from "../components/404/index.vue";
 import Mainindex from "../views/mainindex.vue"
 import Editblog from "../views/mainview/editblog.vue"
+import UserView from "../views/mainview/userinfopage.vue"
 import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
 Vue.use(ElementUI)
@@ -61,6 +62,10 @@ const routes = [
                     {
                         path: "/editblog",
                         component: Editblog,
+                    },
+                    {
+                        path: "/userpage",
+                        component: UserView,
                     },
                    
                 ]
