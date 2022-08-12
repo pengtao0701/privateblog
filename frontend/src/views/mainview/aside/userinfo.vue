@@ -4,11 +4,15 @@
                 <el-row class="demo-avatar" type="flex" :gutter="10">
                         <el-col :span="6">
 
-                                <div class="block">
+                                <el-tooltip placement="bottom" effect="light">
+                                <div slot="content">
+                                <Miniuserinfo>
+                                </Miniuserinfo>
+                                </div>
                                         <el-avatar shape="square" :size="50">
                                                 <img v-bind:src=avatarurl />
                                         </el-avatar>
-                                </div>
+                                </el-tooltip>
                         </el-col>
                         <el-col :span="3">
                                 <el-divider class="el-divider-userinfo" direction="vertical"></el-divider>
@@ -69,13 +73,14 @@ import Userinfostatis from './userinfostatis.vue'
 import { getWelcomeText } from '../../../utils/util'
 import LoginDialog from '../../../components/dialog/logindialog.vue'
 import SigninDialog from '../../../components/dialog/signindialog.vue'
+import Miniuserinfo from '../../../components/user/miniuserinfo.vue'
 
 
 export default {
         // 重载画面
         inject: ['reload'],
         name: 'userinfo',
-        components: { Userinfostatis, Userinfosubmenu, LoginDialog, SigninDialog },
+        components: { Miniuserinfo,Userinfostatis, Userinfosubmenu, LoginDialog, SigninDialog },
         data() {
 
 

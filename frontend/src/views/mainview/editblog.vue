@@ -70,7 +70,6 @@
                                 <!---------------- 文章简介 -------------------->
                                 <el-form-item prop="synopsis">
                                         
-
                                         <el-input type="textarea" :autosize="{ minRows: 4, maxRows: 4, }"
                                                 maxlength="256" placeholder="简介(必填):显示在列表中时，更方便了解博客内容"
                                                 v-model="addForm.synopsis" show-word-limit>
@@ -249,8 +248,18 @@ export default {
                                         if (valid) {
                                                 this.$api.blog.editBlogSave(this.addForm)
                                                         .then(response => {
-
-
+                                                        const{code,message,data} = response
+                                                        if (code === "200" && message === "OK") {
+                                                                that.$message.success('上传成功')
+                                                                // 加载结束
+                                                                that.fullscreenLoading = false
+                                                                // 刷新返回首页
+                                                                this.reload()
+                                                        }else{
+                                                         // 加载结束
+                                                         that.fullscreenLoading = false
+                                                        that.$message.error(message)
+                                                        }
                                                         }).catch(function (error) {
                                                                 that.$message.error("请求失败，请稍后再试")
                                                         }).finally(() => that.fullscreenLoading = false,)
@@ -345,6 +354,7 @@ export default {
                         this.dialogVisible = true;
 
                 },
+                // 上传博客图片成功
                 handleSuccess(response) {
                         this.uploadcoverimg = response.data.urlPath
                         this.uploadshow = true;
@@ -353,6 +363,7 @@ export default {
                 beforeRemove(file) {
                         return this.$confirm(`确定移除 ${file.name}？`);
                 },
+                // 移除封面图后再显示上传
                 onremove() {
                         this.uploadshow = false;
                 }

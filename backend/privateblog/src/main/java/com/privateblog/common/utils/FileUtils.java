@@ -9,12 +9,12 @@ import org.springframework.util.ResourceUtils;
 import org.springframework.web.multipart.MultipartFile;
 
 import com.privateblog.config.ConstantProperties;
-import com.privateblog.model.ImageUploadResult;
+import com.privateblog.model.ImageUploadResultModel;
 
 public class FileUtils {
 
-	public static ImageUploadResult ImgUpload(MultipartFile image ) throws IllegalStateException, IOException {
-		ImageUploadResult result = new ImageUploadResult();
+	public static ImageUploadResultModel ImgUpload(MultipartFile image ) throws IllegalStateException, IOException {
+		ImageUploadResultModel result = new ImageUploadResultModel();
 		
 		
 		//文件上传的地址

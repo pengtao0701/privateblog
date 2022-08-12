@@ -80,6 +80,11 @@ public class UserController {
 			UserLoginLogEntity loginEntity = new UserLoginLogEntity();
 			loginEntity.P_UUID = result.uuid;
 			loginEntity.P_Token = result.token;
+			loginEntity.P_IP_Addres = result.ipaddres;
+			if(result.ipaddres != "" && result.ipaddres != null ) {
+				loginEntity.P_IP_Posation = "未知";
+				// loginEntity.P_IP_Posation = GetIPPosation(result.ipaddres);
+			}
 			loginEntity.P_Last_Login_Date =  Utils.GetDateNowFormat();
 			if(userLoginLogService.checkLoginLogVaild(loginEntity)) {
 				userLoginLogService.insertUserLoginLog(loginEntity);

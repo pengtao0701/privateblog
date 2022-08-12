@@ -25,7 +25,7 @@ import com.privateblog.common.utils.Utils;
 import com.privateblog.entity.BlogEntity;
 import com.privateblog.model.BlogLabelModel;
 import com.privateblog.model.EditBloguploadModel;
-import com.privateblog.model.ImageUploadResult;
+import com.privateblog.model.ImageUploadResultModel;
 import com.privateblog.model.LabelModel;
 import com.privateblog.model.UserInfoModel;
 import com.privateblog.service.BaseApiService;
@@ -154,7 +154,7 @@ public class BlogController {
 	@ResponseBody
 	public CommonResult<Object> FileUpload(@RequestParam("file") MultipartFile file){
 		
-		ImageUploadResult result = new ImageUploadResult();
+		ImageUploadResultModel result = new ImageUploadResultModel();
 		
 		if(!file.isEmpty()) {
 			LOGGER.info("上传图片名 :" + file.getOriginalFilename());

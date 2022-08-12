@@ -57,7 +57,7 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, UserEntity> impleme
 		// 0: admin ,1: user
 		user.P_Role = 1;
 		// TODO: 获取用户IP
-		user.P_IPAdd = "";
+		user.P_IPAdd = signin.ipaddress;
 		user.P_CreateUser = signin.username;
 		user.P_CreateTime = Utils.GetDateNowFormat();
 		user.P_UpdateUser = signin.username;

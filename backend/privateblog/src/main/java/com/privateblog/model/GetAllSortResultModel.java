@@ -10,7 +10,7 @@ import lombok.Setter;
  * 取得所有分类返回model
  * @author pengt
  */
-public class GetAllSortResult {
+public class GetAllSortResultModel {
 
 	@Getter
 	@Setter
