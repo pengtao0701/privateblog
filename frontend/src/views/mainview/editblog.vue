@@ -142,6 +142,8 @@
 import Tedit from "../../components/tinymce/edit.vue"
 
 export default {
+        // 重载画面
+        inject: ['reload'],
         components: { Tedit, },
         name: 'editblog',
         data() {
