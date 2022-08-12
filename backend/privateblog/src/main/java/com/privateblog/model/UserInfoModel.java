@@ -39,6 +39,11 @@ public class UserInfoModel {
 	@Setter
 	// 用户状态
 	public int status;
+	
+	@Getter
+	@Setter
+	// IP地址
+	public String ipaddres;
 
 	@Getter
 	@Setter

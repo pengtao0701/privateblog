@@ -19,6 +19,10 @@ public class UserLoginLogEntity {
 
 	public String P_Token;
 	
+	public String P_IP_Addres;
+	
+	public String P_IP_Posation;
+	
 	public LocalDateTime P_Last_Login_Date;
 
 }

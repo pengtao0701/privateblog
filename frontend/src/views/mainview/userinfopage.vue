@@ -13,9 +13,11 @@
       <el-col>
         <!--------------编辑资料按钮-------------->
         <el-row type="flex" class="row-bg" justify="end">
+        <router-link to="/edituser">
           <div class="el-col-edit-userinfo-button">
             <el-button icon="el-icon-edit" type="primary" round>编辑资料</el-button>
           </div>
+          </router-link>
         </el-row>
       </el-col>
     </el-row>
@@ -76,6 +78,7 @@
 <script>
 import BasebkImg from "../../assets/images/basebkImg.jpg"
 import Avatarurl from "../../assets/images/visitor.png"
+
 export default {
   name: 'userinfopage',
   data() {

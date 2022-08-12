@@ -3,7 +3,7 @@ package com.privateblog.model;
 import lombok.Getter;
 import lombok.Setter;
 
-public class ImageUploadResult {
+public class ImageUploadResultModel {
 
 	@Getter
 	@Setter

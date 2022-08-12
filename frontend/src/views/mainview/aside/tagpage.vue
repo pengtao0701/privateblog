@@ -1,32 +1,40 @@
 <template>
-<el-row>
-  <el-col>
-        <span >标签</span>
-        <el-divider class="tag-title-divider"></el-divider>
-        </el-col>
+  <el-row>
+    <el-col>
+      <span>标签</span>
+      <el-divider class="tag-title-divider"></el-divider>
+    </el-col>
 
-        <el-col>
-        <el-tag>标签一</el-tag>
-    <el-tag type="success">标签二</el-tag>
-    <el-tag type="info">标签三</el-tag>
-    <el-tag type="warning">标签四</el-tag>
-    <el-tag type="danger">标签五</el-tag>
-        </el-col>
-        </el-row>
-  
+    <el-col>
+      <el-tag :key="tag.labelID" v-for="tag in labelModel" hit size="small">
+        {{ tag.labelName }}
+      </el-tag>
+      </el-col>
+  </el-row>
+
 </template>
 
 <script>
 export default {
   name: 'tag',
   data() {
-    return new Object
-  }
+    return {
+      labelModel:'',
+
+    }
+  },
+  mounted() {
+    this.$api.label.getAllLabel().then(result => {
+      const { code, message, data } = result
+
+      this.labelModel = data.labelModel
+    })
+  },
 }
 
 </script>
 <style >
-.tag-title-divider{
+.tag-title-divider {
   margin-top: 15px;
 }
 </style>

@@ -19,6 +19,10 @@ public class SigninModel {
 	@Getter
 	@Setter
 	public String password;
+	
+	@Getter
+	@Setter
+	public String ipaddress;
 
 	@Getter
 	@Setter

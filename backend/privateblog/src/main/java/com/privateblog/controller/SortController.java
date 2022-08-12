@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.power.common.model.CommonResult;
 import com.privateblog.common.SuccessCodeEnum;
 import com.privateblog.entity.SortEntity;
-import com.privateblog.model.GetAllSortResult;
+import com.privateblog.model.GetAllSortResultModel;
 import com.privateblog.model.SortModel;
 import com.privateblog.service.SortService;
 
@@ -23,13 +23,13 @@ public class SortController {
 	public SortService sortService;
 
 	/**
-	 *  编辑博客画面初期化API
+	 *  取得所有分类API
 	 * @return EditBlogInitShowResult
 	 */
 	@GetMapping("/GetAllSort")
 	@ResponseBody
 	public CommonResult<Object> GetAllSort(){
-		GetAllSortResult result = new GetAllSortResult();
+		GetAllSortResultModel result = new GetAllSortResultModel();
 		
 		
 		List<SortEntity> sortEntity = sortService.getAllSort();
