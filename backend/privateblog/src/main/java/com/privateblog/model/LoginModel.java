@@ -16,5 +16,9 @@ public class LoginModel {
 	@Getter
 	@Setter
 	public String mailaddres;
+	
+	@Getter
+	@Setter
+	public String ip;
 
 }

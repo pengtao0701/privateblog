@@ -2,7 +2,7 @@
  * @Author: pengtao.blog 
  * @Date: 2022-06-17 00:27:57 
  * @Last Modified by: pengtao.blog
- * @Last Modified time: 2022-07-01 19:43:05
+ * @Last Modified time: 2022-08-13 06:21:43
  */
 import Vue from "vue";
 import VueRouter from "vue-router";
@@ -16,7 +16,7 @@ import { Message } from 'element-ui'
 axios.defaults.withCredentials = true
 // 请求超时设置 5秒
 const request = axios.create({
-    baseURL:'http://localhost:5000/api/',                //后端url和端口指定
+    baseURL:'http://localhost:5000/',                //后端url和端口指定
     timeout: 10000,
     headers: {
         'Content-Type': 'application/json; charset=utf-8'

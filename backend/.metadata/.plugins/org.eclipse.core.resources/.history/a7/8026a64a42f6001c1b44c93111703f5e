@@ -1,9 +1,0 @@
-package com.privateblog.mapper;
-
-import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.privateblog.entity.BlogSortEntity;
-import com.privateblog.entity.LabelEntity;
-
-public interface BlogSortMapper extends BaseMapper<BlogSortEntity>{
-
-}

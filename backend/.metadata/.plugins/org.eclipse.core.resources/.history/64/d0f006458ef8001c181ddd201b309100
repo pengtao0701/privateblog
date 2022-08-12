@@ -1,9 +1,0 @@
-package com.privateblog.service;
-
-import org.springframework.stereotype.Repository;
-
-@Repository
-public interface BaseApiService {
-
-	public UserInfoModel GetUserInfo(String tokenID);
-}

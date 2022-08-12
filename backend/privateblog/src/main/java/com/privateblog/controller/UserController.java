@@ -53,7 +53,7 @@ public class UserController {
 	@PostMapping("/Login")
 	@ResponseBody
 	public CommonResult<Object> Login(@RequestBody LoginModel model,HttpServletRequest request) {
-
+		
 		UserInfoModel result = new UserInfoModel();
 		//HttpSession session = request.getSession();
 
@@ -80,11 +80,12 @@ public class UserController {
 			UserLoginLogEntity loginEntity = new UserLoginLogEntity();
 			loginEntity.P_UUID = result.uuid;
 			loginEntity.P_Token = result.token;
-			loginEntity.P_IP_Addres = result.ipaddres;
-			if(result.ipaddres != "" && result.ipaddres != null ) {
-				loginEntity.P_IP_Posation = "未知";
-				// loginEntity.P_IP_Posation = GetIPPosation(result.ipaddres);
+			loginEntity.P_IP_Addres = model.ip;
+			// 根据ip获取地理位置
+			if(loginEntity.P_IP_Addres != "" && loginEntity.P_IP_Addres != null ) {
+				loginEntity.P_IP_Posation = Utils.GetIPAddressInfo(loginEntity.P_IP_Addres);
 			}
+			// 用户最后登录时间
 			loginEntity.P_Last_Login_Date =  Utils.GetDateNowFormat();
 			if(userLoginLogService.checkLoginLogVaild(loginEntity)) {
 				userLoginLogService.insertUserLoginLog(loginEntity);

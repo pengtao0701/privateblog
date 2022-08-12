@@ -67,6 +67,7 @@ export default {
                         loginForm: {
                                 username: '',
                                 password: '',
+                                ip: localStorage.getItem('cip'),
                                 isRemember: false
                         },
                         loginrules: {
@@ -90,6 +91,7 @@ export default {
 
                 // ---------  提交登录表单 --------- 
                 submitLoginForm(loginForm) {
+                        
                         let that = this
                         that.fullscreenLoading = true
                         this.$refs[loginForm].validate((valid) => {

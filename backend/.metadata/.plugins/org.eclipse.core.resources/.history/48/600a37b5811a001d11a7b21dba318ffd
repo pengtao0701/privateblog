@@ -1,0 +1,5 @@
+package com.privateblog.common.utils;
+
+public class HttpUtils {
+
+}

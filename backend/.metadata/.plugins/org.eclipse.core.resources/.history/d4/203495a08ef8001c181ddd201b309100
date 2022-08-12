@@ -1,7 +1,0 @@
-package com.privateblog.service.serviceImpl;
-
-import com.privateblog.service.BaseApiService;
-
-public class BaseApiServiceImpl implements BaseApiService{
-
-}
